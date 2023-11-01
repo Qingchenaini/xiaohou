@@ -7,11 +7,10 @@ import cors from '@koa/cors';
  * setup midway server
  */
 export default createConfiguration({
-  imports: [Koa, orm,hooks({
-    middleware: [
-      cors({ origin: '*' }),
-    ],
-  })],
+  imports: [
+    Koa,
+    hooks()
+  ],
 
   importConfigs: [{ default: { keys: 'session_keys' } }],
 });
