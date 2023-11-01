@@ -1,0 +1,59 @@
+.siderCard {
+    width: 270px;
+    height: 670px;
+    // background-color: pink;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+
+    .intro {
+        height: 315px;
+        border: 1px solid #ffffff;
+        border-radius: 12px;
+        box-shadow: 0 0 4px #000;
+        box-sizing: border-box;
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        flex-flow: column;
+        justify-content: space-between;
+
+        .verse {
+            text-align: center;
+        }
+
+        .website {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+
+    .notice {
+        height: 170px;
+        border: 1px solid #ffffff;
+        border-radius: 12px;
+        box-shadow: 0 0 4px #000;
+        box-sizing: border-box;
+        padding: 20px;
+        display: flex;
+        flex-flow: column;
+        justify-content: space-between;
+    }
+
+    .webdata {
+        height: 144px;
+        border: 1px solid #ffffff;
+        border-radius: 12px;
+        box-shadow: 0 0 4px #000;
+        box-sizing: border-box;
+        padding: 20px;
+        flex-flow: column;
+        justify-content: space-between;
+
+        .data {
+            display: flex;
+            flex-flow: column;
+        }
+    }
+}

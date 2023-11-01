@@ -1,0 +1,15 @@
+{
+  "keep": {
+    "days": true,
+    "amount": 31
+  },
+  "auditLog": "E:\\Project\\Midway\\xiaohou\\logs\\hooks-react-starter\\.audit\\.8977a4f2d095fb4b9f0f8df001d2041fbd6c265b-audit.json",
+  "files": [
+    {
+      "date": 1698819665745,
+      "name": "E:\\Project\\Midway\\xiaohou\\logs\\hooks-react-starter\\midway-app.log.2023-11-01",
+      "hash": "6aae1a0c646105243eebd9d51295eb3f"
+    }
+  ],
+  "hashType": "md5"
+}
