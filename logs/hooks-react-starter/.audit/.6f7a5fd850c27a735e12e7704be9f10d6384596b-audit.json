@@ -1,0 +1,20 @@
+{
+  "keep": {
+    "days": true,
+    "amount": 31
+  },
+  "auditLog": "E:\\applet\\xiaohou\\logs\\hooks-react-starter\\.audit\\.6f7a5fd850c27a735e12e7704be9f10d6384596b-audit.json",
+  "files": [
+    {
+      "date": 1698838495467,
+      "name": "E:\\applet\\xiaohou\\logs\\hooks-react-starter\\midway-app.log.2023-11-01",
+      "hash": "abd903693f04156a9049a766f1dc210f"
+    },
+    {
+      "date": 1698874293348,
+      "name": "E:\\applet\\xiaohou\\logs\\hooks-react-starter\\midway-app.log.2023-11-02",
+      "hash": "d1cb01980e8db3a5043f8ce001fbb28c"
+    }
+  ],
+  "hashType": "md5"
+}

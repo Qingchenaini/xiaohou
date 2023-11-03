@@ -5,6 +5,6 @@ export default Api(Post(), async (repo: string) => {
   const response = await fetch(`https://api.github.com/repos/${repo}`);
   const json = await response.json();
   return {
-    stars: json.stargazers_count,
+    stars: json.stargazers_count, 
   };
 });

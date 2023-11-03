@@ -1,0 +1,10 @@
+.articleone {
+    width: 850px;
+}
+
+@media (max-width: 900px) {
+    .articleone {
+        margin-left: 0;
+        /* 在小于900px的屏幕尺寸下显示 */
+    }
+}

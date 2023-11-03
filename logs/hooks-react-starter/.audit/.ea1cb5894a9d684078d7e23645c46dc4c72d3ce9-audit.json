@@ -1,0 +1,20 @@
+{
+  "keep": {
+    "days": true,
+    "amount": 31
+  },
+  "auditLog": "E:\\applet\\xiaohou\\logs\\hooks-react-starter\\.audit\\.ea1cb5894a9d684078d7e23645c46dc4c72d3ce9-audit.json",
+  "files": [
+    {
+      "date": 1698838495462,
+      "name": "E:\\applet\\xiaohou\\logs\\hooks-react-starter\\common-error.log.2023-11-01",
+      "hash": "015f590871910b3bda34b36390ad52ee"
+    },
+    {
+      "date": 1698874293344,
+      "name": "E:\\applet\\xiaohou\\logs\\hooks-react-starter\\common-error.log.2023-11-02",
+      "hash": "e14fce651c0275d00dd82999903ef223"
+    }
+  ],
+  "hashType": "md5"
+}

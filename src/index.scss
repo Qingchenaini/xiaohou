@@ -30,3 +30,9 @@ code {
   }
 }
 
+@media (max-width: 900px) {
+  .app {
+    margin: 0 20px;
+    /* 在小于900px的屏幕尺寸下显示 */
+  }
+}

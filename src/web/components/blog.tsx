@@ -1,15 +1,17 @@
 import React from "react"
-import {getBookByQuery} from '../../api/book'
+import { getBookByQuery } from '../../api/book'
 import { Query } from "@midwayjs/hooks";
+import { getUser } from "../../api/user";
 
-
-const id= '1';
-const response=await getBookByQuery({query:{id}});
-const Blog =()=>{
-  return(
+const id = '1';
+const response = await getBookByQuery({ query: { id } });
+const user = await getUser();
+const Blog = () => {
+  return (
     <div>
-   {response.title}
+      {response.title}
+      {user.name}
     </div>
   )
-  }
+}
 export default Blog

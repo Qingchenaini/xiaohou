@@ -1,0 +1,294 @@
+2023-11-02 12:03:43,509 ERROR 16956 [-/::ffff:127.0.0.1/-/44ms GET /post] PrismaClientKnownRequestError: 
+Invalid `prisma.post.findMany()` invocation in
+E:\applet\xiaohou\src\api\user.ts:15:40
+
+  12 export const getPost = Api(
+  13     Get('/post'),
+  14     async () => {
+→ 15         const post = await prisma.post.findMany()
+  Error converting field "comment" of expected non-nullable type "String", found incompatible value of "1".
+    at RequestHandler.request (E:\applet\xiaohou\node_modules\@prisma\client\runtime\index.js:49022:15)
+    at PrismaClient._request (E:\applet\xiaohou\node_modules\@prisma\client\runtime\index.js:49919:18)
+    at E:\applet\xiaohou\src\api\user.ts:15:22
+    at E:\applet\xiaohou\node_modules\@midwayjs\hooks-core\dist\midwayjs-hooks-core.cjs.dev.js:426:23
+    at runner (E:\applet\xiaohou\node_modules\@midwayjs\hooks-core\dist\midwayjs-hooks-core.cjs.dev.js:430:5)
+    at E:\applet\xiaohou\node_modules\@midwayjs\core\dist\common\webGenerator.js:38:26
+    at bodyParser (E:\applet\xiaohou\node_modules\koa-bodyparser\index.js:78:5)
+    at session (E:\applet\xiaohou\node_modules\@midwayjs\session\dist\middleware\session.js:137:17)
+    at E:\applet\xiaohou\node_modules\@midwayjs\core\dist\baseFramework.js:277:40
+    at E:\applet\xiaohou\node_modules\@midwayjs\core\dist\baseFramework.js:271:24 {
+  code: 'P2032',
+  clientVersion: '3.15.2',
+  meta: { field: 'comment', expected_type: 'String', found: '1' }
+}
+2023-11-02 12:03:46,164 ERROR 16956 [-/::ffff:127.0.0.1/-/15ms GET /post] PrismaClientKnownRequestError: 
+Invalid `prisma.post.findMany()` invocation in
+E:\applet\xiaohou\src\api\user.ts:15:40
+
+  12 export const getPost = Api(
+  13     Get('/post'),
+  14     async () => {
+→ 15         const post = await prisma.post.findMany()
+  Error converting field "comment" of expected non-nullable type "String", found incompatible value of "1".
+    at RequestHandler.request (E:\applet\xiaohou\node_modules\@prisma\client\runtime\index.js:49022:15)
+    at PrismaClient._request (E:\applet\xiaohou\node_modules\@prisma\client\runtime\index.js:49919:18)
+    at E:\applet\xiaohou\src\api\user.ts:15:22
+    at E:\applet\xiaohou\node_modules\@midwayjs\hooks-core\dist\midwayjs-hooks-core.cjs.dev.js:426:23
+    at runner (E:\applet\xiaohou\node_modules\@midwayjs\hooks-core\dist\midwayjs-hooks-core.cjs.dev.js:430:5)
+    at E:\applet\xiaohou\node_modules\@midwayjs\core\dist\common\webGenerator.js:38:26
+    at bodyParser (E:\applet\xiaohou\node_modules\koa-bodyparser\index.js:78:5)
+    at session (E:\applet\xiaohou\node_modules\@midwayjs\session\dist\middleware\session.js:137:17)
+    at E:\applet\xiaohou\node_modules\@midwayjs\core\dist\baseFramework.js:277:40
+    at E:\applet\xiaohou\node_modules\@midwayjs\core\dist\baseFramework.js:271:24 {
+  code: 'P2032',
+  clientVersion: '3.15.2',
+  meta: { field: 'comment', expected_type: 'String', found: '1' }
+}
+2023-11-02 12:03:47,330 ERROR 16956 [-/::ffff:127.0.0.1/-/10ms GET /post] PrismaClientKnownRequestError: 
+Invalid `prisma.post.findMany()` invocation in
+E:\applet\xiaohou\src\api\user.ts:15:40
+
+  12 export const getPost = Api(
+  13     Get('/post'),
+  14     async () => {
+→ 15         const post = await prisma.post.findMany()
+  Error converting field "comment" of expected non-nullable type "String", found incompatible value of "1".
+    at RequestHandler.request (E:\applet\xiaohou\node_modules\@prisma\client\runtime\index.js:49022:15)
+    at PrismaClient._request (E:\applet\xiaohou\node_modules\@prisma\client\runtime\index.js:49919:18)
+    at E:\applet\xiaohou\src\api\user.ts:15:22
+    at E:\applet\xiaohou\node_modules\@midwayjs\hooks-core\dist\midwayjs-hooks-core.cjs.dev.js:426:23
+    at runner (E:\applet\xiaohou\node_modules\@midwayjs\hooks-core\dist\midwayjs-hooks-core.cjs.dev.js:430:5)
+    at E:\applet\xiaohou\node_modules\@midwayjs\core\dist\common\webGenerator.js:38:26
+    at bodyParser (E:\applet\xiaohou\node_modules\koa-bodyparser\index.js:78:5)
+    at session (E:\applet\xiaohou\node_modules\@midwayjs\session\dist\middleware\session.js:137:17)
+    at E:\applet\xiaohou\node_modules\@midwayjs\core\dist\baseFramework.js:277:40
+    at E:\applet\xiaohou\node_modules\@midwayjs\core\dist\baseFramework.js:271:24 {
+  code: 'P2032',
+  clientVersion: '3.15.2',
+  meta: { field: 'comment', expected_type: 'String', found: '1' }
+}
+2023-11-02 16:34:33,930 ERROR 5976 [-/::ffff:127.0.0.1/-/21ms GET /postone] PrismaClientValidationError: 
+Invalid `prisma.post.findFirst()` invocation:
+
+{
+  where: {
+    id: NaN
+        ~~~
+  }
+}
+
+Argument id: Got invalid value NaN on prisma.findFirstPost. Provided Float, expected IntFilter or Int:
+type IntFilter {
+  equals?: Int | IntFieldRefInput
+  in?: List<Int>
+  notIn?: List<Int>
+  lt?: Int | IntFieldRefInput
+  lte?: Int | IntFieldRefInput
+  gt?: Int | IntFieldRefInput
+  gte?: Int | IntFieldRefInput
+  not?: Int | NestedIntFilter
+}
+type IntFilter {
+  equals?: Int | IntFieldRefInput
+  in?: List<Int>
+  notIn?: List<Int>
+  lt?: Int | IntFieldRefInput
+  lte?: Int | IntFieldRefInput
+  gt?: Int | IntFieldRefInput
+  gte?: Int | IntFieldRefInput
+  not?: Int | NestedIntFilter
+}
+
+
+    at Document.validate (E:\applet\xiaohou\node_modules\@prisma\client\runtime\index.js:47823:20)
+    at PrismaClient._executeRequest (E:\applet\xiaohou\node_modules\@prisma\client\runtime\index.js:49972:17)
+    at consumer (E:\applet\xiaohou\node_modules\@prisma\client\runtime\index.js:49916:23)
+    at E:\applet\xiaohou\node_modules\@prisma\client\runtime\index.js:49920:76
+    at runInChildSpan (E:\applet\xiaohou\node_modules\@prisma\client\runtime\index.js:49133:12)
+    at E:\applet\xiaohou\node_modules\@prisma\client\runtime\index.js:49920:20
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at PrismaClient._request (E:\applet\xiaohou\node_modules\@prisma\client\runtime\index.js:49919:86)
+    at E:\applet\xiaohou\node_modules\@prisma\client\runtime\index.js:46474:25
+    at _callback (E:\applet\xiaohou\node_modules\@prisma\client\runtime\index.js:46233:52) {
+  clientVersion: '3.15.2'
+}
+2023-11-02 16:34:39,539 ERROR 5976 [-/::ffff:127.0.0.1/-/7ms GET /postone] PrismaClientValidationError: 
+Invalid `prisma.post.findFirst()` invocation:
+
+{
+  where: {
+    id: NaN
+        ~~~
+  }
+}
+
+Argument id: Got invalid value NaN on prisma.findFirstPost. Provided Float, expected IntFilter or Int:
+type IntFilter {
+  equals?: Int | IntFieldRefInput
+  in?: List<Int>
+  notIn?: List<Int>
+  lt?: Int | IntFieldRefInput
+  lte?: Int | IntFieldRefInput
+  gt?: Int | IntFieldRefInput
+  gte?: Int | IntFieldRefInput
+  not?: Int | NestedIntFilter
+}
+type IntFilter {
+  equals?: Int | IntFieldRefInput
+  in?: List<Int>
+  notIn?: List<Int>
+  lt?: Int | IntFieldRefInput
+  lte?: Int | IntFieldRefInput
+  gt?: Int | IntFieldRefInput
+  gte?: Int | IntFieldRefInput
+  not?: Int | NestedIntFilter
+}
+
+
+    at Document.validate (E:\applet\xiaohou\node_modules\@prisma\client\runtime\index.js:47823:20)
+    at PrismaClient._executeRequest (E:\applet\xiaohou\node_modules\@prisma\client\runtime\index.js:49972:17)
+    at consumer (E:\applet\xiaohou\node_modules\@prisma\client\runtime\index.js:49916:23)
+    at E:\applet\xiaohou\node_modules\@prisma\client\runtime\index.js:49920:76
+    at runInChildSpan (E:\applet\xiaohou\node_modules\@prisma\client\runtime\index.js:49133:12)
+    at E:\applet\xiaohou\node_modules\@prisma\client\runtime\index.js:49920:20
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at PrismaClient._request (E:\applet\xiaohou\node_modules\@prisma\client\runtime\index.js:49919:86)
+    at E:\applet\xiaohou\node_modules\@prisma\client\runtime\index.js:46474:25
+    at _callback (E:\applet\xiaohou\node_modules\@prisma\client\runtime\index.js:46233:52) {
+  clientVersion: '3.15.2'
+}
+2023-11-02 16:34:43,434 ERROR 5976 [-/::ffff:127.0.0.1/-/7ms GET /postone] PrismaClientValidationError: 
+Invalid `prisma.post.findFirst()` invocation:
+
+{
+  where: {
+    id: NaN
+        ~~~
+  }
+}
+
+Argument id: Got invalid value NaN on prisma.findFirstPost. Provided Float, expected IntFilter or Int:
+type IntFilter {
+  equals?: Int | IntFieldRefInput
+  in?: List<Int>
+  notIn?: List<Int>
+  lt?: Int | IntFieldRefInput
+  lte?: Int | IntFieldRefInput
+  gt?: Int | IntFieldRefInput
+  gte?: Int | IntFieldRefInput
+  not?: Int | NestedIntFilter
+}
+type IntFilter {
+  equals?: Int | IntFieldRefInput
+  in?: List<Int>
+  notIn?: List<Int>
+  lt?: Int | IntFieldRefInput
+  lte?: Int | IntFieldRefInput
+  gt?: Int | IntFieldRefInput
+  gte?: Int | IntFieldRefInput
+  not?: Int | NestedIntFilter
+}
+
+
+    at Document.validate (E:\applet\xiaohou\node_modules\@prisma\client\runtime\index.js:47823:20)
+    at PrismaClient._executeRequest (E:\applet\xiaohou\node_modules\@prisma\client\runtime\index.js:49972:17)
+    at consumer (E:\applet\xiaohou\node_modules\@prisma\client\runtime\index.js:49916:23)
+    at E:\applet\xiaohou\node_modules\@prisma\client\runtime\index.js:49920:76
+    at runInChildSpan (E:\applet\xiaohou\node_modules\@prisma\client\runtime\index.js:49133:12)
+    at E:\applet\xiaohou\node_modules\@prisma\client\runtime\index.js:49920:20
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at PrismaClient._request (E:\applet\xiaohou\node_modules\@prisma\client\runtime\index.js:49919:86)
+    at E:\applet\xiaohou\node_modules\@prisma\client\runtime\index.js:46474:25
+    at _callback (E:\applet\xiaohou\node_modules\@prisma\client\runtime\index.js:46233:52) {
+  clientVersion: '3.15.2'
+}
+2023-11-02 16:35:01,122 ERROR 1592 [-/::ffff:127.0.0.1/-/25ms GET /postone] PrismaClientValidationError: 
+Invalid `prisma.post.findFirst()` invocation:
+
+{
+  where: {
+    id: NaN
+        ~~~
+  }
+}
+
+Argument id: Got invalid value NaN on prisma.findFirstPost. Provided Float, expected IntFilter or Int:
+type IntFilter {
+  equals?: Int | IntFieldRefInput
+  in?: List<Int>
+  notIn?: List<Int>
+  lt?: Int | IntFieldRefInput
+  lte?: Int | IntFieldRefInput
+  gt?: Int | IntFieldRefInput
+  gte?: Int | IntFieldRefInput
+  not?: Int | NestedIntFilter
+}
+type IntFilter {
+  equals?: Int | IntFieldRefInput
+  in?: List<Int>
+  notIn?: List<Int>
+  lt?: Int | IntFieldRefInput
+  lte?: Int | IntFieldRefInput
+  gt?: Int | IntFieldRefInput
+  gte?: Int | IntFieldRefInput
+  not?: Int | NestedIntFilter
+}
+
+
+    at Document.validate (E:\applet\xiaohou\node_modules\@prisma\client\runtime\index.js:47823:20)
+    at PrismaClient._executeRequest (E:\applet\xiaohou\node_modules\@prisma\client\runtime\index.js:49972:17)
+    at consumer (E:\applet\xiaohou\node_modules\@prisma\client\runtime\index.js:49916:23)
+    at E:\applet\xiaohou\node_modules\@prisma\client\runtime\index.js:49920:76
+    at runInChildSpan (E:\applet\xiaohou\node_modules\@prisma\client\runtime\index.js:49133:12)
+    at E:\applet\xiaohou\node_modules\@prisma\client\runtime\index.js:49920:20
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at PrismaClient._request (E:\applet\xiaohou\node_modules\@prisma\client\runtime\index.js:49919:86)
+    at E:\applet\xiaohou\node_modules\@prisma\client\runtime\index.js:46474:25
+    at _callback (E:\applet\xiaohou\node_modules\@prisma\client\runtime\index.js:46233:52) {
+  clientVersion: '3.15.2'
+}
+2023-11-02 16:35:08,553 ERROR 1592 [-/::ffff:127.0.0.1/-/7ms GET /postone] PrismaClientValidationError: 
+Invalid `prisma.post.findFirst()` invocation:
+
+{
+  where: {
+    id: NaN
+        ~~~
+  }
+}
+
+Argument id: Got invalid value NaN on prisma.findFirstPost. Provided Float, expected IntFilter or Int:
+type IntFilter {
+  equals?: Int | IntFieldRefInput
+  in?: List<Int>
+  notIn?: List<Int>
+  lt?: Int | IntFieldRefInput
+  lte?: Int | IntFieldRefInput
+  gt?: Int | IntFieldRefInput
+  gte?: Int | IntFieldRefInput
+  not?: Int | NestedIntFilter
+}
+type IntFilter {
+  equals?: Int | IntFieldRefInput
+  in?: List<Int>
+  notIn?: List<Int>
+  lt?: Int | IntFieldRefInput
+  lte?: Int | IntFieldRefInput
+  gt?: Int | IntFieldRefInput
+  gte?: Int | IntFieldRefInput
+  not?: Int | NestedIntFilter
+}
+
+
+    at Document.validate (E:\applet\xiaohou\node_modules\@prisma\client\runtime\index.js:47823:20)
+    at PrismaClient._executeRequest (E:\applet\xiaohou\node_modules\@prisma\client\runtime\index.js:49972:17)
+    at consumer (E:\applet\xiaohou\node_modules\@prisma\client\runtime\index.js:49916:23)
+    at E:\applet\xiaohou\node_modules\@prisma\client\runtime\index.js:49920:76
+    at runInChildSpan (E:\applet\xiaohou\node_modules\@prisma\client\runtime\index.js:49133:12)
+    at E:\applet\xiaohou\node_modules\@prisma\client\runtime\index.js:49920:20
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at PrismaClient._request (E:\applet\xiaohou\node_modules\@prisma\client\runtime\index.js:49919:86)
+    at E:\applet\xiaohou\node_modules\@prisma\client\runtime\index.js:46474:25
+    at _callback (E:\applet\xiaohou\node_modules\@prisma\client\runtime\index.js:46233:52) {
+  clientVersion: '3.15.2'
+}

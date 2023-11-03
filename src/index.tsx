@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import ReactDOM from 'react-dom';
 import { useRequest } from 'ahooks';
 import { getDate } from './api/date';
@@ -8,24 +8,31 @@ import './index.scss';
 import Header from './web/layout/header';
 import Footer from './web/layout/footer';
 import { Routes, Route } from "react-router-dom";
-import {BrowserRouter as Router} from 'react-router-dom';
+import { BrowserRouter as Router } from 'react-router-dom';
 import SiderCard from './web/layout/siderCard';
-import  Content  from './web/layout/content';
 import Blog from './web/components/blog';
+import ArticleAll from './web/components/articleall';
+import ArticleOne from './web/components/articleOne';
+import { FloatButton } from 'antd';
+import { UpCircleTwoTone } from '@ant-design/icons'
+
+
 
 function App() {
   return (
     <Router>
       <div className="app" >
-        <Header/>
+        <Header />
         <div className="middle">
-          <SiderCard/>
-          <Content/>
+          <SiderCard />
           <Routes>
-              <Route path='/Blog' element={<Blog />}></Route>
+            {/* <Route path='/Blog' element={<Blog />} /> */}
+            <Route path='/' element={<ArticleAll />} />
+            <Route path='/article' element={<ArticleOne />} />
           </Routes>
         </div>
-        <Footer/>
+        <Footer />
+        <FloatButton.BackTop icon={<UpCircleTwoTone />} />
       </div>
     </Router>
   );
