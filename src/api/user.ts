@@ -8,11 +8,3 @@ export const getUser = Api(
         return user;
     }
 )
-
-export const getPost = Api(
-    Get('/api/post'),
-    async () => {
-        const post = await prisma.post.findMany();
-        return post;
-    }
-)

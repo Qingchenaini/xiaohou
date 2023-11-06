@@ -1,0 +1,21 @@
+.login {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 400px;
+    border-radius: 6px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+    padding: 30px;
+}
+
+@media (max-width: 900px) {
+    .login {
+        max-width: 400px;
+        margin: 70px 0 0 0;
+        /* 在小于900px的屏幕尺寸下显示 */
+        // justify-content: flex-start;
+    }
+}

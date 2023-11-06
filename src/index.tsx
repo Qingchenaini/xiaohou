@@ -1,22 +1,17 @@
 import React, { useEffect } from 'react';
 import { createRoot } from 'react-dom/client';
+import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import './index.scss';
-import Header from './web/layout/header';
-import Footer from './web/layout/footer';
-import { Routes, Route, Navigate } from "react-router-dom";
-import { BrowserRouter as Router } from 'react-router-dom';
-import SiderCard from './web/layout/siderCard';
-import ArticleAll from './web/components/articleall';
-import ArticleOne from './web/components/articleOne';
-import { FloatButton } from 'antd';
-import { UpCircleTwoTone } from '@ant-design/icons'
 import Blog from './web/components/blog';
-import Test from './web/layout/test';
 import Login from './web/components/login';
-
+import Test from './web/layout/test';
+import Footer from './web/layout/footer';
+import { FloatButton } from 'antd';
+import { UpCircleTwoTone } from '@ant-design/icons';
+import Loading from './web/components/loading';
 
 function App() {
-
+  // const [Loading, setLoading] = React.useState<boolean>(false);
   return (
     // <Router>
     //   <div className="app" >
@@ -34,12 +29,16 @@ function App() {
     //   </div>
     // </Router>
     <Router>
+
       <div className="app" >
+        <Loading />
         <Routes>
           <Route path='*' Component={Test} ></Route>
           <Route path='/Blog' Component={Blog} ></Route>
           <Route path='/Login' Component={Login} />
         </Routes>
+        <FloatButton.BackTop icon={<UpCircleTwoTone twoToneColor={'#8f8f8f'} />} />
+        <Footer />
       </div>
     </Router>
   );

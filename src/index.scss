@@ -22,6 +22,7 @@ code {
   flex-flow: column;
   justify-content: space-between; //两端对齐
   margin: 0 30px;
+  min-height: 100vh;
 
   .middle {
     width: 100%;
@@ -34,5 +35,6 @@ code {
   .app {
     margin: 0 20px;
     /* 在小于900px的屏幕尺寸下显示 */
+    // justify-content: flex-start;
   }
 }

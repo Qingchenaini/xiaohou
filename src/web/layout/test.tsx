@@ -23,8 +23,8 @@ const Test: React.FC = () => {
                 </Routes>
                 {/* <ArticleAll /> */}
             </div>
-            <Footer />
-            <FloatButton.BackTop icon={<UpCircleTwoTone twoToneColor={'#8f8f8f'} />} />
+            {/* <Footer /> */}
+            {/* <FloatButton.BackTop icon={<UpCircleTwoTone twoToneColor={'#8f8f8f'} />} /> */}
         </div>
     )
 }
