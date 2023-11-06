@@ -2,11 +2,12 @@ import './siderCard.scss'
 import { Avatar } from 'antd'
 import { GithubOutlined, QqCircleFilled, NotificationOutlined, SendOutlined } from '@ant-design/icons';
 import React from 'react';
+import Intro from '../components/intro';
 
 const SiderCard = () => {
   return (
     <div className="siderCard">
-      <div className="intro">
+      {/* <div className="intro">
         <Avatar size={128} src='https://iconfont.alicdn.com/p/avatar/iconfont/avatar5.png'></Avatar>
         <span className='autor'></span>
         <div className="verse">
@@ -18,7 +19,8 @@ const SiderCard = () => {
           <a href="#"><QqCircleFilled style={{ fontSize: 33 }} /></a>
           <a href="#"><QqCircleFilled style={{ fontSize: 33 }} /></a>
         </div>
-      </div>
+      </div> */}
+      <Intro/>
       <div className="notice">
         <span className="noticetitle"><NotificationOutlined /> 公告</span>
         <p>

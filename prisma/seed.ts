@@ -1,4 +1,4 @@
-import { PrismaClient, Prisma } from '@prisma/client'
+import { PrismaClient } from '@prisma/client'
 
 export const prisma = new PrismaClient()
 
@@ -6,13 +6,13 @@ export const prisma = new PrismaClient()
 async function main() {
   await prisma.user.create({
     data: {
-      name: '大s',
-      email: 'jc7272',
+      name: 'chen',
+      email: '2822948620@qq.com',
       posts: {
         create: [
           {
             title: 'Join the Prisma Slack',
-            content: '第一篇文章',
+            content: '文章',
             published: true,
             viewCount: 10,
           },

@@ -9,8 +9,9 @@ const user = await getUser();
 const Blog = () => {
   return (
     <div>
-      {response.title}
-      {user.name}
+      {/* {response.title}
+      {user.name} */}
+      Blog界面
     </div>
   )
 }

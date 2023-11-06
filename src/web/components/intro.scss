@@ -1,0 +1,22 @@
+.intro {
+    height: 315px;
+    border: 1px solid #ffffff;
+    border-radius: 12px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    box-sizing: border-box;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    justify-content: space-between;
+
+    .verse {
+        text-align: center;
+    }
+
+    .website {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+}

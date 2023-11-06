@@ -1,4 +1,4 @@
-import { Routes, Route, NavLink } from "react-router-dom";
+import { Routes, Route, NavLink, Router } from "react-router-dom";
 import Blog from "../components/blog";
 import './header.scss';
 import { Dropdown, Space, Avatar } from 'antd';
@@ -6,6 +6,7 @@ import { GlobalOutlined, UserOutlined, SmileTwoTone, MehTwoTone } from '@ant-des
 import type { MenuProps } from 'antd';
 import React from "react";
 import DRAWER from "../components/drawer";
+import Login from "../components/login";
 
 const items: MenuProps['items'] = [
   {
@@ -23,6 +24,7 @@ const Header = () => {
 
 
   return (
+    // <Router>
     <header className="header">
       <NavLink to={'/'} className="webName">小猴</NavLink>
       <div className="nav">
@@ -49,10 +51,13 @@ const Header = () => {
         </div>
         <div className="h-avatar">
           <DRAWER />
-          <Avatar size="default" icon={<UserOutlined />} className="avatar"  src='https://iconfont.alicdn.com/p/avatar/iconfont/avatar5.png' />
+          <NavLink to={'/Login'}>
+            <Avatar size="default" icon={<UserOutlined />} className="avatar" src='https://pic.imgdb.cn/item/6544b2f6c458853aefea4276.png' />
+          </NavLink>
         </div>
       </div>
     </header>
+
   )
 }
 export default Header

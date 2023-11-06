@@ -3,5 +3,26 @@
         display: none;
 
         /* 在大于900px的屏幕尺寸下显示 */
+
     }
+
+    //防止在小屏幕打开抽屉组件不关闭时，切换到大屏幕时会出现组件还在
+    .chuoti {
+        display: none;
+    }
+}
+
+
+.navbox {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+//抽屉组件宽度动态变化
+.ant-drawer-content-wrapper {
+    width: 80% !important;
+    max-width: 288px !important;
+    min-width: 268px !important;
 }
