@@ -9,6 +9,8 @@ import Footer from './web/layout/footer';
 import { FloatButton } from 'antd';
 import { UpCircleTwoTone } from '@ant-design/icons';
 import Loading from './web/components/loading';
+import Publish from './web/components/publish';
+import { Toaster } from 'react-hot-toast';
 
 function App() {
   // const [Loading, setLoading] = React.useState<boolean>(false);
@@ -31,15 +33,18 @@ function App() {
     <Router>
 
       <div className="app" >
+        <Toaster />
         <Loading />
         <Routes>
           <Route path='*' Component={Test} ></Route>
           <Route path='/Blog' Component={Blog} ></Route>
           <Route path='/Login' Component={Login} />
+          <Route path='/publish' Component={Publish} />
         </Routes>
         <FloatButton.BackTop icon={<UpCircleTwoTone twoToneColor={'#8f8f8f'} />} />
         <Footer />
       </div>
+
     </Router>
   );
 }

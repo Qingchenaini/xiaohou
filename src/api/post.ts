@@ -1,16 +1,34 @@
 import { Api, Get, Post } from "@midwayjs/hooks"
 import { prisma } from '../../prisma/seed';
 
-// 单帖子查找
+
+interface GetPostOneParams {
+    id?: number;     // id 是可选的，因为可能会根据 title 来查询
+    title?: string;  // title 也是可选的，因为可能会根据 id 来查询
+}
+// 单帖子查找(可根据id或者title搜索)
 export const getPostOne = Api(
     Post('/api/postone'),
-    async (id: number) => {
-        const postId = await prisma.post.findFirst({
-            where: {
-                id: id
-            }
-        })
-        return postId;
+    async (params: GetPostOneParams) => { 
+        const whereClause: { id?: number; title?: string; } = {};
+
+        if (params.id) {
+            whereClause.id = params.id;
+        }
+        if (params.title) {
+            whereClause.title = params.title;
+        }
+
+        // 如果既没有 id 也没有 title，抛出一个错误
+        if (!whereClause.id && !whereClause.title) {
+            throw new Error('必须提供一个id或者title参数');
+        }
+
+        const post = await prisma.post.findFirst({
+            where: whereClause
+        });
+
+        return post;
     }
 )
 
@@ -37,7 +55,7 @@ export const addPostOne = Api(
     }
 )
 //帖子删除数据
-export const deletePostOne = Api(
+export const deletePostApi = Api(
     Post('/api/deletepost'),
     async (id: number) => {
         try {
@@ -60,11 +78,11 @@ export const deletePostOne = Api(
     }
 )
 
+//更新帖子
 export const updatePost = Api(
     Post('/api/updatepost'),
     async (postId: number, updatedData: { title?: string, content?: string }) => {
         try {
-            // 使用 Prisma Client 的 `update` 方法来更新帖子
             const updatedPost = await prisma.post.update({
                 where: {
                     id: postId

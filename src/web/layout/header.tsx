@@ -1,20 +1,18 @@
-import { Routes, Route, NavLink, Router } from "react-router-dom";
-import Blog from "../components/blog";
-import './header.scss';
-import { Dropdown, Space, Avatar } from 'antd';
-import { GlobalOutlined, UserOutlined, SmileTwoTone, MehTwoTone } from '@ant-design/icons';
+import { GlobalOutlined, MehTwoTone, SmileTwoTone, UserOutlined } from '@ant-design/icons';
 import type { MenuProps } from 'antd';
+import { Avatar, Dropdown, Space } from 'antd';
 import React from "react";
+import { NavLink } from "react-router-dom";
 import DRAWER from "../components/drawer";
-import Login from "../components/login";
+import './header.scss';
 
 const items: MenuProps['items'] = [
   {
     key: '1',
     label: (
-      <a target="_blank" rel="noopener noreferrer" href="https://www.antgroup.com">
-        关于
-      </a>
+      <NavLink to={'/publish'}>
+        发布文章
+      </NavLink>
     ),
   },
 ];

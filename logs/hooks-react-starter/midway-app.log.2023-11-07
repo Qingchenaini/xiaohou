@@ -1,0 +1,312 @@
+2023-11-07 11:14:28,406 ERROR 26052 [-/::ffff:127.0.0.1/-/14ms GET /api/post] ReferenceError: prisma is not defined
+    at E:\applet\xiaohou\src\api\post.ts:29:22
+    at E:\applet\xiaohou\node_modules\@midwayjs\hooks-core\dist\midwayjs-hooks-core.cjs.dev.js:426:29
+    at dispatch (E:\applet\xiaohou\node_modules\koa-compose\index.js:42:32)
+    at E:\applet\xiaohou\node_modules\koa-compose\index.js:34:12
+    at runner (E:\applet\xiaohou\node_modules\@midwayjs\hooks-core\dist\midwayjs-hooks-core.cjs.dev.js:430:45)
+    at Object.method (E:\applet\xiaohou\node_modules\@midwayjs\hooks\dist\midwayjs-hooks.cjs.dev.js:218:14)
+    at E:\applet\xiaohou\node_modules\@midwayjs\core\dist\common\webGenerator.js:38:42
+    at dispatch (E:\applet\xiaohou\node_modules\koa-compose\index.js:42:32)
+    at E:\applet\xiaohou\node_modules\@koa\router\lib\router.js:423:16
+    at dispatch (E:\applet\xiaohou\node_modules\koa-compose\index.js:42:32)
+2023-11-07 11:14:32,861 ERROR 39596 [-/::ffff:127.0.0.1/-/36ms GET /api/post] TypeError: Cannot read properties of undefined (reading 'post')
+    at E:\applet\xiaohou\src\api\post.ts:29:35
+    at E:\applet\xiaohou\node_modules\@midwayjs\hooks-core\dist\midwayjs-hooks-core.cjs.dev.js:426:29
+    at dispatch (E:\applet\xiaohou\node_modules\koa-compose\index.js:42:32)
+    at E:\applet\xiaohou\node_modules\koa-compose\index.js:34:12
+    at runner (E:\applet\xiaohou\node_modules\@midwayjs\hooks-core\dist\midwayjs-hooks-core.cjs.dev.js:430:45)
+    at Object.method (E:\applet\xiaohou\node_modules\@midwayjs\hooks\dist\midwayjs-hooks.cjs.dev.js:218:14)
+    at E:\applet\xiaohou\node_modules\@midwayjs\core\dist\common\webGenerator.js:38:42
+    at dispatch (E:\applet\xiaohou\node_modules\koa-compose\index.js:42:32)
+    at E:\applet\xiaohou\node_modules\@koa\router\lib\router.js:423:16
+    at dispatch (E:\applet\xiaohou\node_modules\koa-compose\index.js:42:32)
+2023-11-07 11:14:56,584 ERROR 39596 [-/::ffff:127.0.0.1/-/25ms POST /api/postone] TypeError: Cannot read properties of undefined (reading 'post')
+    at E:\applet\xiaohou\src\api\post.ts:20:35
+    at E:\applet\xiaohou\node_modules\@midwayjs\hooks-core\dist\midwayjs-hooks-core.cjs.dev.js:426:29
+    at dispatch (E:\applet\xiaohou\node_modules\koa-compose\index.js:42:32)
+    at E:\applet\xiaohou\node_modules\koa-compose\index.js:34:12
+    at runner (E:\applet\xiaohou\node_modules\@midwayjs\hooks-core\dist\midwayjs-hooks-core.cjs.dev.js:430:45)
+    at Object.method (E:\applet\xiaohou\node_modules\@midwayjs\hooks\dist\midwayjs-hooks.cjs.dev.js:218:14)
+    at E:\applet\xiaohou\node_modules\@midwayjs\core\dist\common\webGenerator.js:38:42
+    at dispatch (E:\applet\xiaohou\node_modules\koa-compose\index.js:42:32)
+    at E:\applet\xiaohou\node_modules\@koa\router\lib\router.js:423:16
+    at dispatch (E:\applet\xiaohou\node_modules\koa-compose\index.js:42:32)
+2023-11-07 11:15:01,590 ERROR 39596 [-/::ffff:127.0.0.1/-/5ms GET /api/post] TypeError: Cannot read properties of undefined (reading 'post')
+    at E:\applet\xiaohou\src\api\post.ts:29:35
+    at E:\applet\xiaohou\node_modules\@midwayjs\hooks-core\dist\midwayjs-hooks-core.cjs.dev.js:426:29
+    at dispatch (E:\applet\xiaohou\node_modules\koa-compose\index.js:42:32)
+    at E:\applet\xiaohou\node_modules\koa-compose\index.js:34:12
+    at runner (E:\applet\xiaohou\node_modules\@midwayjs\hooks-core\dist\midwayjs-hooks-core.cjs.dev.js:430:45)
+    at Object.method (E:\applet\xiaohou\node_modules\@midwayjs\hooks\dist\midwayjs-hooks.cjs.dev.js:218:14)
+    at E:\applet\xiaohou\node_modules\@midwayjs\core\dist\common\webGenerator.js:38:42
+    at dispatch (E:\applet\xiaohou\node_modules\koa-compose\index.js:42:32)
+    at E:\applet\xiaohou\node_modules\@koa\router\lib\router.js:423:16
+    at dispatch (E:\applet\xiaohou\node_modules\koa-compose\index.js:42:32)
+2023-11-07 11:33:12,863 ERROR 40976 [-/::ffff:127.0.0.1/-/30ms POST /api/postone] Error: An ID or title must be provided
+    at E:\applet\xiaohou\src\api\post.ts:24:19
+    at E:\applet\xiaohou\node_modules\@midwayjs\hooks-core\dist\midwayjs-hooks-core.cjs.dev.js:426:29
+    at dispatch (E:\applet\xiaohou\node_modules\koa-compose\index.js:42:32)
+    at E:\applet\xiaohou\node_modules\koa-compose\index.js:34:12
+    at runner (E:\applet\xiaohou\node_modules\@midwayjs\hooks-core\dist\midwayjs-hooks-core.cjs.dev.js:430:45)
+    at Object.method (E:\applet\xiaohou\node_modules\@midwayjs\hooks\dist\midwayjs-hooks.cjs.dev.js:218:14)
+    at E:\applet\xiaohou\node_modules\@midwayjs\core\dist\common\webGenerator.js:38:42
+    at dispatch (E:\applet\xiaohou\node_modules\koa-compose\index.js:42:32)
+    at E:\applet\xiaohou\node_modules\@koa\router\lib\router.js:423:16
+    at dispatch (E:\applet\xiaohou\node_modules\koa-compose\index.js:42:32)
+2023-11-07 11:33:28,053 ERROR 40976 [-/::ffff:127.0.0.1/-/2ms POST /api/postone] Error: An ID or title must be provided
+    at E:\applet\xiaohou\src\api\post.ts:24:19
+    at E:\applet\xiaohou\node_modules\@midwayjs\hooks-core\dist\midwayjs-hooks-core.cjs.dev.js:426:29
+    at dispatch (E:\applet\xiaohou\node_modules\koa-compose\index.js:42:32)
+    at E:\applet\xiaohou\node_modules\koa-compose\index.js:34:12
+    at runner (E:\applet\xiaohou\node_modules\@midwayjs\hooks-core\dist\midwayjs-hooks-core.cjs.dev.js:430:45)
+    at Object.method (E:\applet\xiaohou\node_modules\@midwayjs\hooks\dist\midwayjs-hooks.cjs.dev.js:218:14)
+    at E:\applet\xiaohou\node_modules\@midwayjs\core\dist\common\webGenerator.js:38:42
+    at dispatch (E:\applet\xiaohou\node_modules\koa-compose\index.js:42:32)
+    at E:\applet\xiaohou\node_modules\@koa\router\lib\router.js:423:16
+    at dispatch (E:\applet\xiaohou\node_modules\koa-compose\index.js:42:32)
+2023-11-07 11:34:03,720 ERROR 42812 [-/::ffff:127.0.0.1/-/38ms POST /api/postone] Error: An ID or title must be provided
+    at E:\applet\xiaohou\src\api\post.ts:24:19
+    at E:\applet\xiaohou\node_modules\@midwayjs\hooks-core\dist\midwayjs-hooks-core.cjs.dev.js:426:29
+    at dispatch (E:\applet\xiaohou\node_modules\koa-compose\index.js:42:32)
+    at E:\applet\xiaohou\node_modules\koa-compose\index.js:34:12
+    at runner (E:\applet\xiaohou\node_modules\@midwayjs\hooks-core\dist\midwayjs-hooks-core.cjs.dev.js:430:45)
+    at Object.method (E:\applet\xiaohou\node_modules\@midwayjs\hooks\dist\midwayjs-hooks.cjs.dev.js:218:14)
+    at E:\applet\xiaohou\node_modules\@midwayjs\core\dist\common\webGenerator.js:38:42
+    at dispatch (E:\applet\xiaohou\node_modules\koa-compose\index.js:42:32)
+    at E:\applet\xiaohou\node_modules\@koa\router\lib\router.js:423:16
+    at dispatch (E:\applet\xiaohou\node_modules\koa-compose\index.js:42:32)
+2023-11-07 11:35:13,226 ERROR 42812 [-/::ffff:127.0.0.1/-/3ms POST /api/postone] Error: An ID or title must be provided
+    at E:\applet\xiaohou\src\api\post.ts:24:19
+    at E:\applet\xiaohou\node_modules\@midwayjs\hooks-core\dist\midwayjs-hooks-core.cjs.dev.js:426:29
+    at dispatch (E:\applet\xiaohou\node_modules\koa-compose\index.js:42:32)
+    at E:\applet\xiaohou\node_modules\koa-compose\index.js:34:12
+    at runner (E:\applet\xiaohou\node_modules\@midwayjs\hooks-core\dist\midwayjs-hooks-core.cjs.dev.js:430:45)
+    at Object.method (E:\applet\xiaohou\node_modules\@midwayjs\hooks\dist\midwayjs-hooks.cjs.dev.js:218:14)
+    at E:\applet\xiaohou\node_modules\@midwayjs\core\dist\common\webGenerator.js:38:42
+    at dispatch (E:\applet\xiaohou\node_modules\koa-compose\index.js:42:32)
+    at E:\applet\xiaohou\node_modules\@koa\router\lib\router.js:423:16
+    at dispatch (E:\applet\xiaohou\node_modules\koa-compose\index.js:42:32)
+2023-11-07 11:35:29,107 ERROR 42812 [-/::ffff:127.0.0.1/-/2ms POST /api/postone] Error: An ID or title must be provided
+    at E:\applet\xiaohou\src\api\post.ts:24:19
+    at E:\applet\xiaohou\node_modules\@midwayjs\hooks-core\dist\midwayjs-hooks-core.cjs.dev.js:426:29
+    at dispatch (E:\applet\xiaohou\node_modules\koa-compose\index.js:42:32)
+    at E:\applet\xiaohou\node_modules\koa-compose\index.js:34:12
+    at runner (E:\applet\xiaohou\node_modules\@midwayjs\hooks-core\dist\midwayjs-hooks-core.cjs.dev.js:430:45)
+    at Object.method (E:\applet\xiaohou\node_modules\@midwayjs\hooks\dist\midwayjs-hooks.cjs.dev.js:218:14)
+    at E:\applet\xiaohou\node_modules\@midwayjs\core\dist\common\webGenerator.js:38:42
+    at dispatch (E:\applet\xiaohou\node_modules\koa-compose\index.js:42:32)
+    at E:\applet\xiaohou\node_modules\@koa\router\lib\router.js:423:16
+    at dispatch (E:\applet\xiaohou\node_modules\koa-compose\index.js:42:32)
+2023-11-07 11:36:51,096 ERROR 42112 [-/::ffff:127.0.0.1/-/44ms POST /api/postone] Error: An ID or title must be provided
+    at E:\applet\xiaohou\src\api\post.ts:24:19
+    at E:\applet\xiaohou\node_modules\@midwayjs\hooks-core\dist\midwayjs-hooks-core.cjs.dev.js:426:29
+    at dispatch (E:\applet\xiaohou\node_modules\koa-compose\index.js:42:32)
+    at E:\applet\xiaohou\node_modules\koa-compose\index.js:34:12
+    at runner (E:\applet\xiaohou\node_modules\@midwayjs\hooks-core\dist\midwayjs-hooks-core.cjs.dev.js:430:45)
+    at Object.method (E:\applet\xiaohou\node_modules\@midwayjs\hooks\dist\midwayjs-hooks.cjs.dev.js:218:14)
+    at E:\applet\xiaohou\node_modules\@midwayjs\core\dist\common\webGenerator.js:38:42
+    at dispatch (E:\applet\xiaohou\node_modules\koa-compose\index.js:42:32)
+    at E:\applet\xiaohou\node_modules\@koa\router\lib\router.js:423:16
+    at dispatch (E:\applet\xiaohou\node_modules\koa-compose\index.js:42:32)
+2023-11-07 11:45:41,000 ERROR 40176 [-/::ffff:127.0.0.1/-/31ms POST /api/postone] Error: 必须提供一个id或者title参数
+    at E:\applet\xiaohou\src\api\post.ts:24:19
+    at E:\applet\xiaohou\node_modules\@midwayjs\hooks-core\dist\midwayjs-hooks-core.cjs.dev.js:426:29
+    at dispatch (E:\applet\xiaohou\node_modules\koa-compose\index.js:42:32)
+    at E:\applet\xiaohou\node_modules\koa-compose\index.js:34:12
+    at runner (E:\applet\xiaohou\node_modules\@midwayjs\hooks-core\dist\midwayjs-hooks-core.cjs.dev.js:430:45)
+    at Object.method (E:\applet\xiaohou\node_modules\@midwayjs\hooks\dist\midwayjs-hooks.cjs.dev.js:218:14)
+    at E:\applet\xiaohou\node_modules\@midwayjs\core\dist\common\webGenerator.js:38:42
+    at dispatch (E:\applet\xiaohou\node_modules\koa-compose\index.js:42:32)
+    at E:\applet\xiaohou\node_modules\@koa\router\lib\router.js:423:16
+    at dispatch (E:\applet\xiaohou\node_modules\koa-compose\index.js:42:32)
+2023-11-07 14:11:06,559 ERROR 40176 [-/::ffff:127.0.0.1/-/2ms POST /api/postone] Error: 必须提供一个id或者title参数
+    at E:\applet\xiaohou\src\api\post.ts:24:19
+    at E:\applet\xiaohou\node_modules\@midwayjs\hooks-core\dist\midwayjs-hooks-core.cjs.dev.js:426:29
+    at dispatch (E:\applet\xiaohou\node_modules\koa-compose\index.js:42:32)
+    at E:\applet\xiaohou\node_modules\koa-compose\index.js:34:12
+    at runner (E:\applet\xiaohou\node_modules\@midwayjs\hooks-core\dist\midwayjs-hooks-core.cjs.dev.js:430:45)
+    at Object.method (E:\applet\xiaohou\node_modules\@midwayjs\hooks\dist\midwayjs-hooks.cjs.dev.js:218:14)
+    at E:\applet\xiaohou\node_modules\@midwayjs\core\dist\common\webGenerator.js:38:42
+    at dispatch (E:\applet\xiaohou\node_modules\koa-compose\index.js:42:32)
+    at E:\applet\xiaohou\node_modules\@koa\router\lib\router.js:423:16
+    at dispatch (E:\applet\xiaohou\node_modules\koa-compose\index.js:42:32)
+2023-11-07 14:11:09,672 ERROR 40176 [-/::ffff:127.0.0.1/-/2ms POST /api/postone] Error: 必须提供一个id或者title参数
+    at E:\applet\xiaohou\src\api\post.ts:24:19
+    at E:\applet\xiaohou\node_modules\@midwayjs\hooks-core\dist\midwayjs-hooks-core.cjs.dev.js:426:29
+    at dispatch (E:\applet\xiaohou\node_modules\koa-compose\index.js:42:32)
+    at E:\applet\xiaohou\node_modules\koa-compose\index.js:34:12
+    at runner (E:\applet\xiaohou\node_modules\@midwayjs\hooks-core\dist\midwayjs-hooks-core.cjs.dev.js:430:45)
+    at Object.method (E:\applet\xiaohou\node_modules\@midwayjs\hooks\dist\midwayjs-hooks.cjs.dev.js:218:14)
+    at E:\applet\xiaohou\node_modules\@midwayjs\core\dist\common\webGenerator.js:38:42
+    at dispatch (E:\applet\xiaohou\node_modules\koa-compose\index.js:42:32)
+    at E:\applet\xiaohou\node_modules\@koa\router\lib\router.js:423:16
+    at dispatch (E:\applet\xiaohou\node_modules\koa-compose\index.js:42:32)
+2023-11-07 14:41:03,113 ERROR 36784 [-/::ffff:127.0.0.1/-/4ms POST /api/postone] Error: 必须提供一个id或者title参数
+    at E:\applet\xiaohou\src\api\post.ts:24:19
+    at E:\applet\xiaohou\node_modules\@midwayjs\hooks-core\dist\midwayjs-hooks-core.cjs.dev.js:426:29
+    at dispatch (E:\applet\xiaohou\node_modules\koa-compose\index.js:42:32)
+    at E:\applet\xiaohou\node_modules\koa-compose\index.js:34:12
+    at runner (E:\applet\xiaohou\node_modules\@midwayjs\hooks-core\dist\midwayjs-hooks-core.cjs.dev.js:430:45)
+    at Object.method (E:\applet\xiaohou\node_modules\@midwayjs\hooks\dist\midwayjs-hooks.cjs.dev.js:218:14)
+    at E:\applet\xiaohou\node_modules\@midwayjs\core\dist\common\webGenerator.js:38:42
+    at dispatch (E:\applet\xiaohou\node_modules\koa-compose\index.js:42:32)
+    at E:\applet\xiaohou\node_modules\@koa\router\lib\router.js:423:16
+    at dispatch (E:\applet\xiaohou\node_modules\koa-compose\index.js:42:32)
+2023-11-07 14:47:19,995 ERROR 36784 [-/::ffff:127.0.0.1/-/2ms POST /api/postone] Error: 必须提供一个id或者title参数
+    at E:\applet\xiaohou\src\api\post.ts:24:19
+    at E:\applet\xiaohou\node_modules\@midwayjs\hooks-core\dist\midwayjs-hooks-core.cjs.dev.js:426:29
+    at dispatch (E:\applet\xiaohou\node_modules\koa-compose\index.js:42:32)
+    at E:\applet\xiaohou\node_modules\koa-compose\index.js:34:12
+    at runner (E:\applet\xiaohou\node_modules\@midwayjs\hooks-core\dist\midwayjs-hooks-core.cjs.dev.js:430:45)
+    at Object.method (E:\applet\xiaohou\node_modules\@midwayjs\hooks\dist\midwayjs-hooks.cjs.dev.js:218:14)
+    at E:\applet\xiaohou\node_modules\@midwayjs\core\dist\common\webGenerator.js:38:42
+    at dispatch (E:\applet\xiaohou\node_modules\koa-compose\index.js:42:32)
+    at E:\applet\xiaohou\node_modules\@koa\router\lib\router.js:423:16
+    at dispatch (E:\applet\xiaohou\node_modules\koa-compose\index.js:42:32)
+2023-11-07 14:48:07,626 ERROR 36784 [-/::ffff:127.0.0.1/-/2ms POST /api/postone] Error: 必须提供一个id或者title参数
+    at E:\applet\xiaohou\src\api\post.ts:24:19
+    at E:\applet\xiaohou\node_modules\@midwayjs\hooks-core\dist\midwayjs-hooks-core.cjs.dev.js:426:29
+    at dispatch (E:\applet\xiaohou\node_modules\koa-compose\index.js:42:32)
+    at E:\applet\xiaohou\node_modules\koa-compose\index.js:34:12
+    at runner (E:\applet\xiaohou\node_modules\@midwayjs\hooks-core\dist\midwayjs-hooks-core.cjs.dev.js:430:45)
+    at Object.method (E:\applet\xiaohou\node_modules\@midwayjs\hooks\dist\midwayjs-hooks.cjs.dev.js:218:14)
+    at E:\applet\xiaohou\node_modules\@midwayjs\core\dist\common\webGenerator.js:38:42
+    at dispatch (E:\applet\xiaohou\node_modules\koa-compose\index.js:42:32)
+    at E:\applet\xiaohou\node_modules\@koa\router\lib\router.js:423:16
+    at dispatch (E:\applet\xiaohou\node_modules\koa-compose\index.js:42:32)
+2023-11-07 14:59:52,033 ERROR 36784 [-/::ffff:127.0.0.1/-/9ms POST /api/addpost] PrismaClientValidationError: 
+Invalid `prisma.post.create()` invocation in
+E:\applet\xiaohou\src\api\post.ts:48:43
+
+  45 export const addPostOne = Api(
+  46     Post('/api/addpost'),
+  47     async (data: { title: string, content: string }) => {
+→ 48         const newPost = await prisma.post.create({
+               data: {
+                 content: undefined,
+             +   title: String
+               }
+             })
+
+Argument `title` is missing.
+    at En (E:\applet\xiaohou\node_modules\@prisma\client\runtime\library.js:116:5888)
+    at Cn.handleRequestError (E:\applet\xiaohou\node_modules\@prisma\client\runtime\library.js:123:6516)
+    at Cn.handleAndLogRequestError (E:\applet\xiaohou\node_modules\@prisma\client\runtime\library.js:123:6206)
+    at Cn.request (E:\applet\xiaohou\node_modules\@prisma\client\runtime\library.js:123:5926)
+    at l (E:\applet\xiaohou\node_modules\@prisma\client\runtime\library.js:128:9968)
+    at E:\applet\xiaohou\src\api\post.ts:48:25
+    at E:\applet\xiaohou\node_modules\@midwayjs\hooks-core\dist\midwayjs-hooks-core.cjs.dev.js:426:23
+    at runner (E:\applet\xiaohou\node_modules\@midwayjs\hooks-core\dist\midwayjs-hooks-core.cjs.dev.js:430:5)
+    at E:\applet\xiaohou\node_modules\@midwayjs\core\dist\common\webGenerator.js:38:26
+    at bodyParser (E:\applet\xiaohou\node_modules\koa-bodyparser\index.js:78:5) {
+  clientVersion: '5.5.2'
+}
+2023-11-07 15:03:17,241 ERROR 36784 [-/::ffff:127.0.0.1/-/2ms POST /api/postone] Error: 必须提供一个id或者title参数
+    at E:\applet\xiaohou\src\api\post.ts:24:19
+    at E:\applet\xiaohou\node_modules\@midwayjs\hooks-core\dist\midwayjs-hooks-core.cjs.dev.js:426:29
+    at dispatch (E:\applet\xiaohou\node_modules\koa-compose\index.js:42:32)
+    at E:\applet\xiaohou\node_modules\koa-compose\index.js:34:12
+    at runner (E:\applet\xiaohou\node_modules\@midwayjs\hooks-core\dist\midwayjs-hooks-core.cjs.dev.js:430:45)
+    at Object.method (E:\applet\xiaohou\node_modules\@midwayjs\hooks\dist\midwayjs-hooks.cjs.dev.js:218:14)
+    at E:\applet\xiaohou\node_modules\@midwayjs\core\dist\common\webGenerator.js:38:42
+    at dispatch (E:\applet\xiaohou\node_modules\koa-compose\index.js:42:32)
+    at E:\applet\xiaohou\node_modules\@koa\router\lib\router.js:423:16
+    at dispatch (E:\applet\xiaohou\node_modules\koa-compose\index.js:42:32)
+2023-11-07 16:47:17,139 ERROR 36784 [-/::ffff:127.0.0.1/-/2ms POST /api/postone] Error: 必须提供一个id或者title参数
+    at E:\applet\xiaohou\src\api\post.ts:24:19
+    at E:\applet\xiaohou\node_modules\@midwayjs\hooks-core\dist\midwayjs-hooks-core.cjs.dev.js:426:29
+    at dispatch (E:\applet\xiaohou\node_modules\koa-compose\index.js:42:32)
+    at E:\applet\xiaohou\node_modules\koa-compose\index.js:34:12
+    at runner (E:\applet\xiaohou\node_modules\@midwayjs\hooks-core\dist\midwayjs-hooks-core.cjs.dev.js:430:45)
+    at Object.method (E:\applet\xiaohou\node_modules\@midwayjs\hooks\dist\midwayjs-hooks.cjs.dev.js:218:14)
+    at E:\applet\xiaohou\node_modules\@midwayjs\core\dist\common\webGenerator.js:38:42
+    at dispatch (E:\applet\xiaohou\node_modules\koa-compose\index.js:42:32)
+    at E:\applet\xiaohou\node_modules\@koa\router\lib\router.js:423:16
+    at dispatch (E:\applet\xiaohou\node_modules\koa-compose\index.js:42:32)
+2023-11-07 16:47:20,717 ERROR 36784 [-/::ffff:127.0.0.1/-/1ms POST /api/postone] Error: 必须提供一个id或者title参数
+    at E:\applet\xiaohou\src\api\post.ts:24:19
+    at E:\applet\xiaohou\node_modules\@midwayjs\hooks-core\dist\midwayjs-hooks-core.cjs.dev.js:426:29
+    at dispatch (E:\applet\xiaohou\node_modules\koa-compose\index.js:42:32)
+    at E:\applet\xiaohou\node_modules\koa-compose\index.js:34:12
+    at runner (E:\applet\xiaohou\node_modules\@midwayjs\hooks-core\dist\midwayjs-hooks-core.cjs.dev.js:430:45)
+    at Object.method (E:\applet\xiaohou\node_modules\@midwayjs\hooks\dist\midwayjs-hooks.cjs.dev.js:218:14)
+    at E:\applet\xiaohou\node_modules\@midwayjs\core\dist\common\webGenerator.js:38:42
+    at dispatch (E:\applet\xiaohou\node_modules\koa-compose\index.js:42:32)
+    at E:\applet\xiaohou\node_modules\@koa\router\lib\router.js:423:16
+    at dispatch (E:\applet\xiaohou\node_modules\koa-compose\index.js:42:32)
+2023-11-07 16:47:26,262 ERROR 36784 [-/::ffff:127.0.0.1/-/2ms POST /api/postone] Error: 必须提供一个id或者title参数
+    at E:\applet\xiaohou\src\api\post.ts:24:19
+    at E:\applet\xiaohou\node_modules\@midwayjs\hooks-core\dist\midwayjs-hooks-core.cjs.dev.js:426:29
+    at dispatch (E:\applet\xiaohou\node_modules\koa-compose\index.js:42:32)
+    at E:\applet\xiaohou\node_modules\koa-compose\index.js:34:12
+    at runner (E:\applet\xiaohou\node_modules\@midwayjs\hooks-core\dist\midwayjs-hooks-core.cjs.dev.js:430:45)
+    at Object.method (E:\applet\xiaohou\node_modules\@midwayjs\hooks\dist\midwayjs-hooks.cjs.dev.js:218:14)
+    at E:\applet\xiaohou\node_modules\@midwayjs\core\dist\common\webGenerator.js:38:42
+    at dispatch (E:\applet\xiaohou\node_modules\koa-compose\index.js:42:32)
+    at E:\applet\xiaohou\node_modules\@koa\router\lib\router.js:423:16
+    at dispatch (E:\applet\xiaohou\node_modules\koa-compose\index.js:42:32)
+2023-11-07 16:47:57,143 ERROR 36784 [-/::ffff:127.0.0.1/-/6ms POST /api/postone] Error: 必须提供一个id或者title参数
+    at E:\applet\xiaohou\src\api\post.ts:24:19
+    at E:\applet\xiaohou\node_modules\@midwayjs\hooks-core\dist\midwayjs-hooks-core.cjs.dev.js:426:29
+    at dispatch (E:\applet\xiaohou\node_modules\koa-compose\index.js:42:32)
+    at E:\applet\xiaohou\node_modules\koa-compose\index.js:34:12
+    at runner (E:\applet\xiaohou\node_modules\@midwayjs\hooks-core\dist\midwayjs-hooks-core.cjs.dev.js:430:45)
+    at Object.method (E:\applet\xiaohou\node_modules\@midwayjs\hooks\dist\midwayjs-hooks.cjs.dev.js:218:14)
+    at E:\applet\xiaohou\node_modules\@midwayjs\core\dist\common\webGenerator.js:38:42
+    at dispatch (E:\applet\xiaohou\node_modules\koa-compose\index.js:42:32)
+    at E:\applet\xiaohou\node_modules\@koa\router\lib\router.js:423:16
+    at dispatch (E:\applet\xiaohou\node_modules\koa-compose\index.js:42:32)
+2023-11-07 16:49:24,594 ERROR 36784 [-/::ffff:127.0.0.1/-/10ms POST /api/postone] PrismaClientValidationError: 
+Invalid `prisma.post.findFirst()` invocation in
+E:\applet\xiaohou\src\api\post.ts:27:40
+
+  24     throw new Error('必须提供一个id或者title参数');
+  25 }
+  26 
+→ 27 const post = await prisma.post.findFirst({
+       where: {
+         id: "2"
+             ~~~
+       }
+     })
+
+Argument `id`: Invalid value provided. Expected IntFilter or Int, provided String.
+    at En (E:\applet\xiaohou\node_modules\@prisma\client\runtime\library.js:116:5888)
+    at Cn.handleRequestError (E:\applet\xiaohou\node_modules\@prisma\client\runtime\library.js:123:6516)
+    at Cn.handleAndLogRequestError (E:\applet\xiaohou\node_modules\@prisma\client\runtime\library.js:123:6206)
+    at Cn.request (E:\applet\xiaohou\node_modules\@prisma\client\runtime\library.js:123:5926)
+    at l (E:\applet\xiaohou\node_modules\@prisma\client\runtime\library.js:128:9968)
+    at E:\applet\xiaohou\src\api\post.ts:27:22
+    at E:\applet\xiaohou\node_modules\@midwayjs\hooks-core\dist\midwayjs-hooks-core.cjs.dev.js:426:23
+    at runner (E:\applet\xiaohou\node_modules\@midwayjs\hooks-core\dist\midwayjs-hooks-core.cjs.dev.js:430:5)
+    at E:\applet\xiaohou\node_modules\@midwayjs\core\dist\common\webGenerator.js:38:26
+    at bodyParser (E:\applet\xiaohou\node_modules\koa-bodyparser\index.js:78:5) {
+  clientVersion: '5.5.2'
+}
+2023-11-07 16:49:27,577 ERROR 36784 [-/::ffff:127.0.0.1/-/4ms POST /api/postone] PrismaClientValidationError: 
+Invalid `prisma.post.findFirst()` invocation in
+E:\applet\xiaohou\src\api\post.ts:27:40
+
+  24     throw new Error('必须提供一个id或者title参数');
+  25 }
+  26 
+→ 27 const post = await prisma.post.findFirst({
+       where: {
+         id: "2"
+             ~~~
+       }
+     })
+
+Argument `id`: Invalid value provided. Expected IntFilter or Int, provided String.
+    at En (E:\applet\xiaohou\node_modules\@prisma\client\runtime\library.js:116:5888)
+    at Cn.handleRequestError (E:\applet\xiaohou\node_modules\@prisma\client\runtime\library.js:123:6516)
+    at Cn.handleAndLogRequestError (E:\applet\xiaohou\node_modules\@prisma\client\runtime\library.js:123:6206)
+    at Cn.request (E:\applet\xiaohou\node_modules\@prisma\client\runtime\library.js:123:5926)
+    at l (E:\applet\xiaohou\node_modules\@prisma\client\runtime\library.js:128:9968)
+    at E:\applet\xiaohou\src\api\post.ts:27:22
+    at E:\applet\xiaohou\node_modules\@midwayjs\hooks-core\dist\midwayjs-hooks-core.cjs.dev.js:426:23
+    at runner (E:\applet\xiaohou\node_modules\@midwayjs\hooks-core\dist\midwayjs-hooks-core.cjs.dev.js:430:5)
+    at E:\applet\xiaohou\node_modules\@midwayjs\core\dist\common\webGenerator.js:38:26
+    at bodyParser (E:\applet\xiaohou\node_modules\koa-bodyparser\index.js:78:5) {
+  clientVersion: '5.5.2'
+}

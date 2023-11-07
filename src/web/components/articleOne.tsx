@@ -14,7 +14,7 @@ const ArticleOne = () => {
             const id = searchParams.get('id');
             console.log('id', id);
 
-            const postData = await getPostOne(Number(id));
+            const postData = await getPostOne({id:Number(id)});
             console.log('temp', postData);
             setPost(postData);
         };

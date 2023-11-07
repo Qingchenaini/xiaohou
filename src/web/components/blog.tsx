@@ -1,11 +1,4 @@
-import React from "react"
-import { getBookByQuery } from '../../api/book'
-import { Query } from "@midwayjs/hooks";
-import { getUser } from "../../api/user";
-
-const id = '1';
-const response = await getBookByQuery({ query: { id } });
-const user = await getUser();
+import React from "react";
 const Blog = () => {
   return (
     <div>
