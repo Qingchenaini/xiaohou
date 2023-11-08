@@ -6,8 +6,6 @@ import { Routes, Route } from "react-router-dom";
 import SiderCard from './siderCard';
 import ArticleAll from '../components/articleall';
 import ArticleOne from '../components/articleOne';
-import { FloatButton } from 'antd';
-import { UpCircleTwoTone } from '@ant-design/icons'
 
 
 
@@ -25,6 +23,7 @@ const Test: React.FC = () => {
             </div>
             {/* <Footer /> */}
             {/* <FloatButton.BackTop icon={<UpCircleTwoTone twoToneColor={'#8f8f8f'} />} /> */}
+
         </div>
     )
 }

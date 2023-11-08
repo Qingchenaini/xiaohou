@@ -1,0 +1,189 @@
+2023-11-08 10:53:13,891 ERROR 10392 [-/::ffff:127.0.0.1/-/14ms GET /api/posts] TypeError: Cannot read properties of undefined (reading 'query')
+    at E:\applet\xiaohou\src\api\post.ts:44:33
+    at E:\applet\xiaohou\node_modules\@midwayjs\hooks-core\dist\midwayjs-hooks-core.cjs.dev.js:426:29
+    at dispatch (E:\applet\xiaohou\node_modules\koa-compose\index.js:42:32)
+    at E:\applet\xiaohou\node_modules\koa-compose\index.js:34:12
+    at runner (E:\applet\xiaohou\node_modules\@midwayjs\hooks-core\dist\midwayjs-hooks-core.cjs.dev.js:430:45)
+    at Object.method (E:\applet\xiaohou\node_modules\@midwayjs\hooks\dist\midwayjs-hooks.cjs.dev.js:218:14)
+    at E:\applet\xiaohou\node_modules\@midwayjs\core\dist\common\webGenerator.js:38:42
+    at dispatch (E:\applet\xiaohou\node_modules\koa-compose\index.js:42:32)
+    at E:\applet\xiaohou\node_modules\@koa\router\lib\router.js:423:16
+    at dispatch (E:\applet\xiaohou\node_modules\koa-compose\index.js:42:32)
+2023-11-08 10:53:44,088 ERROR 2144 [-/::ffff:127.0.0.1/-/13ms GET /api/posts] TypeError: Cannot read properties of undefined (reading 'query')
+    at E:\applet\xiaohou\src\api\post.ts:44:35
+    at E:\applet\xiaohou\node_modules\@midwayjs\hooks-core\dist\midwayjs-hooks-core.cjs.dev.js:426:29
+    at dispatch (E:\applet\xiaohou\node_modules\koa-compose\index.js:42:32)
+    at E:\applet\xiaohou\node_modules\koa-compose\index.js:34:12
+    at runner (E:\applet\xiaohou\node_modules\@midwayjs\hooks-core\dist\midwayjs-hooks-core.cjs.dev.js:430:45)
+    at Object.method (E:\applet\xiaohou\node_modules\@midwayjs\hooks\dist\midwayjs-hooks.cjs.dev.js:218:14)
+    at E:\applet\xiaohou\node_modules\@midwayjs\core\dist\common\webGenerator.js:38:42
+    at dispatch (E:\applet\xiaohou\node_modules\koa-compose\index.js:42:32)
+    at E:\applet\xiaohou\node_modules\@koa\router\lib\router.js:423:16
+    at dispatch (E:\applet\xiaohou\node_modules\koa-compose\index.js:42:32)
+2023-11-08 10:55:35,411 ERROR 16216 [-/::ffff:127.0.0.1/-/12ms GET /api/posts] TypeError: Cannot read properties of undefined (reading 'query')
+    at E:\applet\xiaohou\src\api\post.ts:44:35
+    at E:\applet\xiaohou\node_modules\@midwayjs\hooks-core\dist\midwayjs-hooks-core.cjs.dev.js:426:29
+    at dispatch (E:\applet\xiaohou\node_modules\koa-compose\index.js:42:32)
+    at E:\applet\xiaohou\node_modules\koa-compose\index.js:34:12
+    at runner (E:\applet\xiaohou\node_modules\@midwayjs\hooks-core\dist\midwayjs-hooks-core.cjs.dev.js:430:45)
+    at Object.method (E:\applet\xiaohou\node_modules\@midwayjs\hooks\dist\midwayjs-hooks.cjs.dev.js:218:14)
+    at E:\applet\xiaohou\node_modules\@midwayjs\core\dist\common\webGenerator.js:38:42
+    at dispatch (E:\applet\xiaohou\node_modules\koa-compose\index.js:42:32)
+    at E:\applet\xiaohou\node_modules\@koa\router\lib\router.js:423:16
+    at dispatch (E:\applet\xiaohou\node_modules\koa-compose\index.js:42:32)
+2023-11-08 10:56:03,626 ERROR 15884 [-/::ffff:127.0.0.1/-/13ms GET /api/posts] TypeError: Cannot read properties of undefined (reading 'page')
+    at E:\applet\xiaohou\src\api\post.ts:44:35
+    at E:\applet\xiaohou\node_modules\@midwayjs\hooks-core\dist\midwayjs-hooks-core.cjs.dev.js:426:29
+    at dispatch (E:\applet\xiaohou\node_modules\koa-compose\index.js:42:32)
+    at E:\applet\xiaohou\node_modules\koa-compose\index.js:34:12
+    at runner (E:\applet\xiaohou\node_modules\@midwayjs\hooks-core\dist\midwayjs-hooks-core.cjs.dev.js:430:45)
+    at Object.method (E:\applet\xiaohou\node_modules\@midwayjs\hooks\dist\midwayjs-hooks.cjs.dev.js:218:14)
+    at E:\applet\xiaohou\node_modules\@midwayjs\core\dist\common\webGenerator.js:38:42
+    at dispatch (E:\applet\xiaohou\node_modules\koa-compose\index.js:42:32)
+    at E:\applet\xiaohou\node_modules\@koa\router\lib\router.js:423:16
+    at dispatch (E:\applet\xiaohou\node_modules\koa-compose\index.js:42:32)
+2023-11-08 10:56:03,637 ERROR 15884 [-/::ffff:127.0.0.1/-/2ms GET /api/posts] TypeError: Cannot read properties of undefined (reading 'page')
+    at E:\applet\xiaohou\src\api\post.ts:44:35
+    at E:\applet\xiaohou\node_modules\@midwayjs\hooks-core\dist\midwayjs-hooks-core.cjs.dev.js:426:29
+    at dispatch (E:\applet\xiaohou\node_modules\koa-compose\index.js:42:32)
+    at E:\applet\xiaohou\node_modules\koa-compose\index.js:34:12
+    at runner (E:\applet\xiaohou\node_modules\@midwayjs\hooks-core\dist\midwayjs-hooks-core.cjs.dev.js:430:45)
+    at Object.method (E:\applet\xiaohou\node_modules\@midwayjs\hooks\dist\midwayjs-hooks.cjs.dev.js:218:14)
+    at E:\applet\xiaohou\node_modules\@midwayjs\core\dist\common\webGenerator.js:38:42
+    at dispatch (E:\applet\xiaohou\node_modules\koa-compose\index.js:42:32)
+    at E:\applet\xiaohou\node_modules\@koa\router\lib\router.js:423:16
+    at dispatch (E:\applet\xiaohou\node_modules\koa-compose\index.js:42:32)
+2023-11-08 10:56:09,088 ERROR 14560 [-/::ffff:127.0.0.1/-/18ms GET /api/posts] TypeError: Cannot read properties of undefined (reading 'page')
+    at E:\applet\xiaohou\src\api\post.ts:44:35
+    at E:\applet\xiaohou\node_modules\@midwayjs\hooks-core\dist\midwayjs-hooks-core.cjs.dev.js:426:29
+    at dispatch (E:\applet\xiaohou\node_modules\koa-compose\index.js:42:32)
+    at E:\applet\xiaohou\node_modules\koa-compose\index.js:34:12
+    at runner (E:\applet\xiaohou\node_modules\@midwayjs\hooks-core\dist\midwayjs-hooks-core.cjs.dev.js:430:45)
+    at Object.method (E:\applet\xiaohou\node_modules\@midwayjs\hooks\dist\midwayjs-hooks.cjs.dev.js:218:14)
+    at E:\applet\xiaohou\node_modules\@midwayjs\core\dist\common\webGenerator.js:38:42
+    at dispatch (E:\applet\xiaohou\node_modules\koa-compose\index.js:42:32)
+    at E:\applet\xiaohou\node_modules\@koa\router\lib\router.js:423:16
+    at dispatch (E:\applet\xiaohou\node_modules\koa-compose\index.js:42:32)
+2023-11-08 10:56:09,101 ERROR 14560 [-/::ffff:127.0.0.1/-/1ms GET /api/posts] TypeError: Cannot read properties of undefined (reading 'page')
+    at E:\applet\xiaohou\src\api\post.ts:44:35
+    at E:\applet\xiaohou\node_modules\@midwayjs\hooks-core\dist\midwayjs-hooks-core.cjs.dev.js:426:29
+    at dispatch (E:\applet\xiaohou\node_modules\koa-compose\index.js:42:32)
+    at E:\applet\xiaohou\node_modules\koa-compose\index.js:34:12
+    at runner (E:\applet\xiaohou\node_modules\@midwayjs\hooks-core\dist\midwayjs-hooks-core.cjs.dev.js:430:45)
+    at Object.method (E:\applet\xiaohou\node_modules\@midwayjs\hooks\dist\midwayjs-hooks.cjs.dev.js:218:14)
+    at E:\applet\xiaohou\node_modules\@midwayjs\core\dist\common\webGenerator.js:38:42
+    at dispatch (E:\applet\xiaohou\node_modules\koa-compose\index.js:42:32)
+    at E:\applet\xiaohou\node_modules\@koa\router\lib\router.js:423:16
+    at dispatch (E:\applet\xiaohou\node_modules\koa-compose\index.js:42:32)
+2023-11-08 11:04:22,192 ERROR 17680 [-/::ffff:127.0.0.1/-/15ms GET /api/posts] TypeError: Cannot read properties of undefined (reading 'page')
+    at E:\applet\xiaohou\src\api\post.ts:44:29
+    at E:\applet\xiaohou\node_modules\@midwayjs\hooks-core\dist\midwayjs-hooks-core.cjs.dev.js:426:29
+    at dispatch (E:\applet\xiaohou\node_modules\koa-compose\index.js:42:32)
+    at E:\applet\xiaohou\node_modules\koa-compose\index.js:34:12
+    at runner (E:\applet\xiaohou\node_modules\@midwayjs\hooks-core\dist\midwayjs-hooks-core.cjs.dev.js:430:45)
+    at Object.method (E:\applet\xiaohou\node_modules\@midwayjs\hooks\dist\midwayjs-hooks.cjs.dev.js:218:14)
+    at E:\applet\xiaohou\node_modules\@midwayjs\core\dist\common\webGenerator.js:38:42
+    at dispatch (E:\applet\xiaohou\node_modules\koa-compose\index.js:42:32)
+    at E:\applet\xiaohou\node_modules\@koa\router\lib\router.js:423:16
+    at dispatch (E:\applet\xiaohou\node_modules\koa-compose\index.js:42:32)
+2023-11-08 11:05:14,981 ERROR 3248 [-/::ffff:127.0.0.1/-/12ms GET /api/posts] TypeError: Cannot read properties of undefined (reading 'page')
+    at E:\applet\xiaohou\src\api\post.ts:44:29
+    at E:\applet\xiaohou\node_modules\@midwayjs\hooks-core\dist\midwayjs-hooks-core.cjs.dev.js:426:29
+    at dispatch (E:\applet\xiaohou\node_modules\koa-compose\index.js:42:32)
+    at E:\applet\xiaohou\node_modules\koa-compose\index.js:34:12
+    at runner (E:\applet\xiaohou\node_modules\@midwayjs\hooks-core\dist\midwayjs-hooks-core.cjs.dev.js:430:45)
+    at Object.method (E:\applet\xiaohou\node_modules\@midwayjs\hooks\dist\midwayjs-hooks.cjs.dev.js:218:14)
+    at E:\applet\xiaohou\node_modules\@midwayjs\core\dist\common\webGenerator.js:38:42
+    at dispatch (E:\applet\xiaohou\node_modules\koa-compose\index.js:42:32)
+    at E:\applet\xiaohou\node_modules\@koa\router\lib\router.js:423:16
+    at dispatch (E:\applet\xiaohou\node_modules\koa-compose\index.js:42:32)
+2023-11-08 11:05:17,041 ERROR 7104 [-/::ffff:127.0.0.1/-/14ms GET /api/posts] TypeError: Cannot read properties of undefined (reading 'page')
+    at E:\applet\xiaohou\src\api\post.ts:44:29
+    at E:\applet\xiaohou\node_modules\@midwayjs\hooks-core\dist\midwayjs-hooks-core.cjs.dev.js:426:29
+    at dispatch (E:\applet\xiaohou\node_modules\koa-compose\index.js:42:32)
+    at E:\applet\xiaohou\node_modules\koa-compose\index.js:34:12
+    at runner (E:\applet\xiaohou\node_modules\@midwayjs\hooks-core\dist\midwayjs-hooks-core.cjs.dev.js:430:45)
+    at Object.method (E:\applet\xiaohou\node_modules\@midwayjs\hooks\dist\midwayjs-hooks.cjs.dev.js:218:14)
+    at E:\applet\xiaohou\node_modules\@midwayjs\core\dist\common\webGenerator.js:38:42
+    at dispatch (E:\applet\xiaohou\node_modules\koa-compose\index.js:42:32)
+    at E:\applet\xiaohou\node_modules\@koa\router\lib\router.js:423:16
+    at dispatch (E:\applet\xiaohou\node_modules\koa-compose\index.js:42:32)
+2023-11-08 11:05:17,052 ERROR 7104 [-/::ffff:127.0.0.1/-/2ms GET /api/posts] TypeError: Cannot read properties of undefined (reading 'page')
+    at E:\applet\xiaohou\src\api\post.ts:44:29
+    at E:\applet\xiaohou\node_modules\@midwayjs\hooks-core\dist\midwayjs-hooks-core.cjs.dev.js:426:29
+    at dispatch (E:\applet\xiaohou\node_modules\koa-compose\index.js:42:32)
+    at E:\applet\xiaohou\node_modules\koa-compose\index.js:34:12
+    at runner (E:\applet\xiaohou\node_modules\@midwayjs\hooks-core\dist\midwayjs-hooks-core.cjs.dev.js:430:45)
+    at Object.method (E:\applet\xiaohou\node_modules\@midwayjs\hooks\dist\midwayjs-hooks.cjs.dev.js:218:14)
+    at E:\applet\xiaohou\node_modules\@midwayjs\core\dist\common\webGenerator.js:38:42
+    at dispatch (E:\applet\xiaohou\node_modules\koa-compose\index.js:42:32)
+    at E:\applet\xiaohou\node_modules\@koa\router\lib\router.js:423:16
+    at dispatch (E:\applet\xiaohou\node_modules\koa-compose\index.js:42:32)
+2023-11-08 11:05:44,143 ERROR 7104 [-/::ffff:127.0.0.1/-/3ms GET /api/posts] TypeError: Cannot read properties of undefined (reading 'page')
+    at E:\applet\xiaohou\src\api\post.ts:44:29
+    at E:\applet\xiaohou\node_modules\@midwayjs\hooks-core\dist\midwayjs-hooks-core.cjs.dev.js:426:29
+    at dispatch (E:\applet\xiaohou\node_modules\koa-compose\index.js:42:32)
+    at E:\applet\xiaohou\node_modules\koa-compose\index.js:34:12
+    at runner (E:\applet\xiaohou\node_modules\@midwayjs\hooks-core\dist\midwayjs-hooks-core.cjs.dev.js:430:45)
+    at Object.method (E:\applet\xiaohou\node_modules\@midwayjs\hooks\dist\midwayjs-hooks.cjs.dev.js:218:14)
+    at E:\applet\xiaohou\node_modules\@midwayjs\core\dist\common\webGenerator.js:38:42
+    at dispatch (E:\applet\xiaohou\node_modules\koa-compose\index.js:42:32)
+    at E:\applet\xiaohou\node_modules\@koa\router\lib\router.js:423:16
+    at dispatch (E:\applet\xiaohou\node_modules\koa-compose\index.js:42:32)
+2023-11-08 11:05:48,094 ERROR 7104 [-/::ffff:127.0.0.1/-/1ms GET /api/posts] TypeError: Cannot read properties of undefined (reading 'page')
+    at E:\applet\xiaohou\src\api\post.ts:44:29
+    at E:\applet\xiaohou\node_modules\@midwayjs\hooks-core\dist\midwayjs-hooks-core.cjs.dev.js:426:29
+    at dispatch (E:\applet\xiaohou\node_modules\koa-compose\index.js:42:32)
+    at E:\applet\xiaohou\node_modules\koa-compose\index.js:34:12
+    at runner (E:\applet\xiaohou\node_modules\@midwayjs\hooks-core\dist\midwayjs-hooks-core.cjs.dev.js:430:45)
+    at Object.method (E:\applet\xiaohou\node_modules\@midwayjs\hooks\dist\midwayjs-hooks.cjs.dev.js:218:14)
+    at E:\applet\xiaohou\node_modules\@midwayjs\core\dist\common\webGenerator.js:38:42
+    at dispatch (E:\applet\xiaohou\node_modules\koa-compose\index.js:42:32)
+    at E:\applet\xiaohou\node_modules\@koa\router\lib\router.js:423:16
+    at dispatch (E:\applet\xiaohou\node_modules\koa-compose\index.js:42:32)
+2023-11-08 11:15:16,195 ERROR 11232 [-/::ffff:127.0.0.1/-/13ms GET /api/posts] TypeError: Cannot read properties of undefined (reading 'page')
+    at E:\applet\xiaohou\src\api\post.ts:44:29
+    at E:\applet\xiaohou\node_modules\@midwayjs\hooks-core\dist\midwayjs-hooks-core.cjs.dev.js:426:29
+    at dispatch (E:\applet\xiaohou\node_modules\koa-compose\index.js:42:32)
+    at E:\applet\xiaohou\node_modules\koa-compose\index.js:34:12
+    at runner (E:\applet\xiaohou\node_modules\@midwayjs\hooks-core\dist\midwayjs-hooks-core.cjs.dev.js:430:45)
+    at Object.method (E:\applet\xiaohou\node_modules\@midwayjs\hooks\dist\midwayjs-hooks.cjs.dev.js:218:14)
+    at E:\applet\xiaohou\node_modules\@midwayjs\core\dist\common\webGenerator.js:38:42
+    at dispatch (E:\applet\xiaohou\node_modules\koa-compose\index.js:42:32)
+    at E:\applet\xiaohou\node_modules\@koa\router\lib\router.js:423:16
+    at dispatch (E:\applet\xiaohou\node_modules\koa-compose\index.js:42:32)
+2023-11-08 11:23:38,216 ERROR 7464 [-/::ffff:127.0.0.1/-/8ms POST /api/posts] TypeError: Cannot read properties of undefined (reading 'page')
+    at E:\applet\xiaohou\src\api\post.ts:39:29
+    at E:\applet\xiaohou\node_modules\@midwayjs\hooks-core\dist\midwayjs-hooks-core.cjs.dev.js:426:29
+    at dispatch (E:\applet\xiaohou\node_modules\koa-compose\index.js:42:32)
+    at E:\applet\xiaohou\node_modules\koa-compose\index.js:34:12
+    at runner (E:\applet\xiaohou\node_modules\@midwayjs\hooks-core\dist\midwayjs-hooks-core.cjs.dev.js:430:45)
+    at Object.method (E:\applet\xiaohou\node_modules\@midwayjs\hooks\dist\midwayjs-hooks.cjs.dev.js:218:14)
+    at E:\applet\xiaohou\node_modules\@midwayjs\core\dist\common\webGenerator.js:38:42
+    at dispatch (E:\applet\xiaohou\node_modules\koa-compose\index.js:42:32)
+    at E:\applet\xiaohou\node_modules\@koa\router\lib\router.js:423:16
+    at dispatch (E:\applet\xiaohou\node_modules\koa-compose\index.js:42:32)
+2023-11-08 11:54:57,984 WARN 7464 [-/::ffff:127.0.0.1/-/9ms GET /api/posts] NotFoundError: /api/posts Not Found
+    at notFound (E:\applet\xiaohou\node_modules\@midwayjs\koa\dist\framework.js:94:23)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at bodyParser (E:\applet\xiaohou\node_modules\koa-bodyparser\index.js:78:5)
+    at session (E:\applet\xiaohou\node_modules\@midwayjs\session\dist\middleware\session.js:137:17)
+    at E:\applet\xiaohou\node_modules\@midwayjs\core\dist\baseFramework.js:277:40
+    at E:\applet\xiaohou\node_modules\@midwayjs\core\dist\baseFramework.js:271:24
+    at midwayRootMiddleware (E:\applet\xiaohou\node_modules\@midwayjs\koa\dist\framework.js:100:13) {
+  code: '404',
+  cause: undefined,
+  status: 404
+}
+2023-11-08 11:55:02,515 WARN 7464 [-/::ffff:127.0.0.1/-/2ms GET /api/posts] NotFoundError: /api/posts Not Found
+    at notFound (E:\applet\xiaohou\node_modules\@midwayjs\koa\dist\framework.js:94:23)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at bodyParser (E:\applet\xiaohou\node_modules\koa-bodyparser\index.js:78:5)
+    at session (E:\applet\xiaohou\node_modules\@midwayjs\session\dist\middleware\session.js:137:17)
+    at E:\applet\xiaohou\node_modules\@midwayjs\core\dist\baseFramework.js:277:40
+    at E:\applet\xiaohou\node_modules\@midwayjs\core\dist\baseFramework.js:271:24
+    at midwayRootMiddleware (E:\applet\xiaohou\node_modules\@midwayjs\koa\dist\framework.js:100:13) {
+  code: '404',
+  cause: undefined,
+  status: 404
+}

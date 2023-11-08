@@ -9,7 +9,7 @@ interface GetPostOneParams {
 // 单帖子查找(可根据id或者title搜索)
 export const getPostOne = Api(
     Post('/api/postone'),
-    async (params: GetPostOneParams) => { 
+    async (params: GetPostOneParams) => {
         const whereClause: { id?: number; title?: string; } = {};
 
         if (params.id) {
@@ -34,10 +34,33 @@ export const getPostOne = Api(
 
 //全部帖子查找
 export const getPost = Api(
-    Get('/api/post'),
-    async () => {
-        const post = await prisma.post.findMany();
-        return post;
+    Post('/api/posts'),
+    async (Params) => {
+        const page = Params.page || 1; //请求页码
+        const pageSize = Params.pageSize || 5;  //默认一页5条
+        const skip = (page - 1) * pageSize;   //跳过前面文章
+
+        const post = await prisma.post.findMany({
+            skip: skip,
+            take: pageSize,
+            orderBy: {
+                createdAt: 'desc'//降序
+            }
+        });
+
+        //获取总文章数来计算总页数
+        const totalPostsCount = await prisma.post.count();
+        const totalPages = Math.ceil(totalPostsCount / pageSize);
+
+        return {
+            data: post,
+            pagination: {
+                page: page,
+                pageSize: pageSize,
+                total: totalPostsCount,
+                totalPages: totalPages,
+            },
+        };
     }
 )
 
@@ -54,6 +77,7 @@ export const addPostOne = Api(
         return newPost;
     }
 )
+
 //帖子删除数据
 export const deletePostApi = Api(
     Post('/api/deletepost'),
