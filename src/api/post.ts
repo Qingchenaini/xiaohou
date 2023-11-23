@@ -1,4 +1,4 @@
-import { Api, Get, Post } from "@midwayjs/hooks"
+import { Api, Post } from "@midwayjs/hooks"
 import { prisma } from '../../prisma/seed';
 
 

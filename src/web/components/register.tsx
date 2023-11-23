@@ -1,9 +1,9 @@
 import React from 'react';
 import { LockOutlined, UserOutlined } from '@ant-design/icons';
-import { Button, Checkbox, Form, Input } from 'antd';
-import './login.scss'
-import { loginApi } from '../../api/user';
-import { NavLink, useNavigate } from 'react-router-dom';
+import { Button, Form, Input } from 'antd';
+import './register.scss'
+import { registerApi } from '../../api/user';
+import { useNavigate } from 'react-router-dom';
 import toast from 'react-hot-toast';
 
 
@@ -12,22 +12,20 @@ interface loginParam {
     password: string,
     token: any,
 }
-const Login: React.FC = () => {
+
+const Register: React.FC = () => {
     const [form] = Form.useForm();
     const navigate = useNavigate();
     const onFinish = async (values: loginParam) => {
         try {
-            const loginrp = await loginApi({ username: values.username, password: values.password });
+            const register = await registerApi({ username: values.username, password: values.password });
 
-            if (loginrp && loginrp.token) {
-                console.log('Login successful');
-                localStorage.setItem('token', loginrp.token)
-                console.log('Token:', loginrp.token);
-                toast.success('登录成功');
-                navigate('/')
+            if (register) {
+                console.log('register successful');
+                toast.success('注册成功');
+                navigate('/Login');
             } else {
-                console.log('Login failed');
-                toast.error('密码或账户错误')
+                console.log('register failed');
             }
         } catch (error) {
             console.log('Error:', error.message);
@@ -37,7 +35,7 @@ const Login: React.FC = () => {
 
     return (
 
-        <div className="login">
+        <div className="register">
             <Form
                 name="normal_login"
                 className="login-form"
@@ -63,14 +61,12 @@ const Login: React.FC = () => {
                 </Form.Item>
                 <Form.Item>
                     <Button type="primary" htmlType="submit" className="login-form-button" style={{ width: '100%' }}>
-                        Log in
+                        注册
                     </Button>
-                    {/* <NavLink to={'/register'} /><span>注册</span>  */}
-                    <NavLink to={'/register'}>注册</NavLink>
                 </Form.Item>
             </Form>
         </div>
     );
 };
 
-export default Login;
+export default Register;

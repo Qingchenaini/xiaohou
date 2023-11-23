@@ -50,6 +50,7 @@ const Header = () => {
         <div className="h-avatar">
           <DRAWER />
           <NavLink to={'/Login'}>
+            {/* 改成登录才有头像 */}
             <Avatar size="default" icon={<UserOutlined />} className="avatar" src='https://pic.imgdb.cn/item/6544b2f6c458853aefea4276.png' />
           </NavLink>
         </div>

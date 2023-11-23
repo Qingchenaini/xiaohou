@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import NProgress from 'nprogress';
 import 'nprogress/nprogress.css'; // 引入样式文件
-
 const Loading = (props) => {
+
+
   useEffect(() => {
     NProgress.start(); // 开始加载时显示进度条
 

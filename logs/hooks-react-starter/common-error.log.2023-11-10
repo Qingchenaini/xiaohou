@@ -1,0 +1,11 @@
+2023-11-10 11:32:37,680 ERROR 21744 [-/::ffff:127.0.0.1/-/7ms POST /api/HelloSocketController] ReferenceError: xtx is not defined
+    at E:\applet\xiaohou\src\api\socket\test.controller.ts:46:64
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at E:\applet\xiaohou\node_modules\@midwayjs\hooks-core\dist\midwayjs-hooks-core.cjs.dev.js:426:23
+    at runner (E:\applet\xiaohou\node_modules\@midwayjs\hooks-core\dist\midwayjs-hooks-core.cjs.dev.js:430:5)
+    at E:\applet\xiaohou\node_modules\@midwayjs\core\dist\common\webGenerator.js:38:26
+    at bodyParser (E:\applet\xiaohou\node_modules\koa-bodyparser\index.js:78:5)
+    at session (E:\applet\xiaohou\node_modules\@midwayjs\session\dist\middleware\session.js:137:17)
+    at E:\applet\xiaohou\node_modules\@midwayjs\core\dist\baseFramework.js:277:40
+    at E:\applet\xiaohou\node_modules\@midwayjs\core\dist\baseFramework.js:271:24
+    at midwayRootMiddleware (E:\applet\xiaohou\node_modules\@midwayjs\koa\dist\framework.js:100:13)

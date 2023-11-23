@@ -3,7 +3,7 @@ import ArticleCard from '../components/articliecard';
 import { getPost } from '../../api/post';
 import type { PaginationProps } from 'antd';
 import { Pagination } from 'antd';
-
+import { loginApi, registerApi } from '../../api/user';
 
 
 interface postParam {
@@ -25,12 +25,20 @@ interface postParam {
         totalPages: number;
     }
 }
+const post = await getPost({});
+// const register = await registerApi({ username: 'chen', password: '291291208' })
+// console.log(register)
+// 主页所有文章,分页查询,当数据更新时不会发生改变（短轮询解决）
+// const test = await Test();
+// console.log('test:', test)
 
 
 
-// 主页所有文章,分页查询
+
+
+
 const ArticleAll = () => {
-    const [p, setP] = useState<postParam>()
+    const [p, setP] = useState<postParam>(post)
     useEffect(() => {
         async () => {
             const post = await getPost({});
@@ -38,18 +46,34 @@ const ArticleAll = () => {
         }
     }, [])
 
-    console.log(p)
+    //获取数据并设置
+    const fetchData = async () => {
+        const post = await getPost({});
+        setP(post);
+        // console.log('挂载', post)
+    }
+
+    //1h秒轮一次
+    const pollForUpdates = () => {
+        fetchData(); // 立即获取数据
+        setTimeout(pollForUpdates, 360000);
+    };
+
+    //组件挂载就开始轮询
+    useEffect(() => {
+        pollForUpdates();
+    }, [])
+
+
     const onShowSizeChange: PaginationProps['onShowSizeChange'] = (current, pageSize) => {
         console.log(current, pageSize);
     };
 
     const onChangeSize = async (value) => {
-        // console.log(value)
         const post = await getPost({ page: value });
         console.log('change', post)
         setP(post)
     }
-    console.log('p', p)
     return (
         <div className='article'>
             {p.data.map((p) => {
@@ -60,7 +84,7 @@ const ArticleAll = () => {
                 onShowSizeChange={onShowSizeChange}
                 defaultCurrent={1}
                 defaultPageSize={5}
-                total={post.pagination.total}
+                total={p.pagination.total}
                 onChange={onChangeSize}
             />
         </div>

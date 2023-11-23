@@ -163,3 +163,269 @@
     at dispatch (E:\applet\xiaohou\node_modules\koa-compose\index.js:42:32)
     at E:\applet\xiaohou\node_modules\@koa\router\lib\router.js:423:16
     at dispatch (E:\applet\xiaohou\node_modules\koa-compose\index.js:42:32)
+2023-11-08 18:44:14,032 ERROR 1440 [-/::ffff:127.0.0.1/-/181ms POST /api/register] PrismaClientValidationError: 
+Invalid `prisma.user.create()` invocation in
+E:\applet\xiaohou\src\api\user.ts:21:44
+
+  18 async (Params: Userparam) => {
+  19     const { username, password } = Params;
+  20     const hashPassword = hash(password, 10)
+→ 21     const register = await prisma.user.create({
+           data: {
+             username: "chen",
+             password: {}
+                       ~~
+           }
+         })
+
+Argument `password`: Invalid value provided. Expected String, provided Object.
+    at En (E:\applet\xiaohou\node_modules\@prisma\client\runtime\library.js:116:5888)
+    at Cn.handleRequestError (E:\applet\xiaohou\node_modules\@prisma\client\runtime\library.js:123:6516)
+    at Cn.handleAndLogRequestError (E:\applet\xiaohou\node_modules\@prisma\client\runtime\library.js:123:6206)
+    at Cn.request (E:\applet\xiaohou\node_modules\@prisma\client\runtime\library.js:123:5926)
+    at l (E:\applet\xiaohou\node_modules\@prisma\client\runtime\library.js:128:9968)
+    at E:\applet\xiaohou\src\api\user.ts:21:26
+    at E:\applet\xiaohou\node_modules\@midwayjs\hooks-core\dist\midwayjs-hooks-core.cjs.dev.js:426:23
+    at runner (E:\applet\xiaohou\node_modules\@midwayjs\hooks-core\dist\midwayjs-hooks-core.cjs.dev.js:430:5)
+    at E:\applet\xiaohou\node_modules\@midwayjs\core\dist\common\webGenerator.js:38:26
+    at bodyParser (E:\applet\xiaohou\node_modules\koa-bodyparser\index.js:78:5) {
+  clientVersion: '5.5.2'
+}
+2023-11-08 18:46:35,244 ERROR 17728 [-/::ffff:127.0.0.1/-/125ms POST /api/register] PrismaClientValidationError: 
+Invalid `prisma.user.create()` invocation in
+E:\applet\xiaohou\src\api\user.ts:21:44
+
+  18 async (Params: Userparam) => {
+  19     const { username, password } = Params;
+  20     const hashPassword = hash(password, 10)
+→ 21     const register = await prisma.user.create({
+           data: {
+             username: "chen",
+             password: {}
+                       ~~
+           }
+         })
+
+Argument `password`: Invalid value provided. Expected String, provided Object.
+    at En (E:\applet\xiaohou\node_modules\@prisma\client\runtime\library.js:116:5888)
+    at Cn.handleRequestError (E:\applet\xiaohou\node_modules\@prisma\client\runtime\library.js:123:6516)
+    at Cn.handleAndLogRequestError (E:\applet\xiaohou\node_modules\@prisma\client\runtime\library.js:123:6206)
+    at Cn.request (E:\applet\xiaohou\node_modules\@prisma\client\runtime\library.js:123:5926)
+    at l (E:\applet\xiaohou\node_modules\@prisma\client\runtime\library.js:128:9968)
+    at E:\applet\xiaohou\src\api\user.ts:21:26
+    at E:\applet\xiaohou\node_modules\@midwayjs\hooks-core\dist\midwayjs-hooks-core.cjs.dev.js:426:23
+    at runner (E:\applet\xiaohou\node_modules\@midwayjs\hooks-core\dist\midwayjs-hooks-core.cjs.dev.js:430:5)
+    at E:\applet\xiaohou\node_modules\@midwayjs\core\dist\common\webGenerator.js:38:26
+    at bodyParser (E:\applet\xiaohou\node_modules\koa-bodyparser\index.js:78:5) {
+  clientVersion: '5.5.2'
+}
+2023-11-08 18:47:02,841 ERROR 17728 [-/::ffff:127.0.0.1/-/83ms POST /api/register] PrismaClientValidationError: 
+Invalid `prisma.user.create()` invocation in
+E:\applet\xiaohou\src\api\user.ts:21:44
+
+  18 async (Params: Userparam) => {
+  19     const { username, password } = Params;
+  20     const hashPassword = hash(password, 10)
+→ 21     const register = await prisma.user.create({
+           data: {
+             username: "chen",
+             password: {}
+                       ~~
+           }
+         })
+
+Argument `password`: Invalid value provided. Expected String, provided Object.
+    at En (E:\applet\xiaohou\node_modules\@prisma\client\runtime\library.js:116:5888)
+    at Cn.handleRequestError (E:\applet\xiaohou\node_modules\@prisma\client\runtime\library.js:123:6516)
+    at Cn.handleAndLogRequestError (E:\applet\xiaohou\node_modules\@prisma\client\runtime\library.js:123:6206)
+    at Cn.request (E:\applet\xiaohou\node_modules\@prisma\client\runtime\library.js:123:5926)
+    at l (E:\applet\xiaohou\node_modules\@prisma\client\runtime\library.js:128:9968)
+    at E:\applet\xiaohou\src\api\user.ts:21:26
+    at E:\applet\xiaohou\node_modules\@midwayjs\hooks-core\dist\midwayjs-hooks-core.cjs.dev.js:426:23
+    at runner (E:\applet\xiaohou\node_modules\@midwayjs\hooks-core\dist\midwayjs-hooks-core.cjs.dev.js:430:5)
+    at E:\applet\xiaohou\node_modules\@midwayjs\core\dist\common\webGenerator.js:38:26
+    at bodyParser (E:\applet\xiaohou\node_modules\koa-bodyparser\index.js:78:5) {
+  clientVersion: '5.5.2'
+}
+2023-11-08 18:47:29,105 ERROR 17728 [-/::ffff:127.0.0.1/-/84ms POST /api/register] PrismaClientValidationError: 
+Invalid `prisma.user.create()` invocation in
+E:\applet\xiaohou\src\api\user.ts:21:44
+
+  18 async (Params: Userparam) => {
+  19     const { username, password } = Params;
+  20     const hashPassword = hash(password, 10)
+→ 21     const register = await prisma.user.create({
+           data: {
+             username: "chen",
+             password: {}
+                       ~~
+           }
+         })
+
+Argument `password`: Invalid value provided. Expected String, provided Object.
+    at En (E:\applet\xiaohou\node_modules\@prisma\client\runtime\library.js:116:5888)
+    at Cn.handleRequestError (E:\applet\xiaohou\node_modules\@prisma\client\runtime\library.js:123:6516)
+    at Cn.handleAndLogRequestError (E:\applet\xiaohou\node_modules\@prisma\client\runtime\library.js:123:6206)
+    at Cn.request (E:\applet\xiaohou\node_modules\@prisma\client\runtime\library.js:123:5926)
+    at l (E:\applet\xiaohou\node_modules\@prisma\client\runtime\library.js:128:9968)
+    at E:\applet\xiaohou\src\api\user.ts:21:26
+    at E:\applet\xiaohou\node_modules\@midwayjs\hooks-core\dist\midwayjs-hooks-core.cjs.dev.js:426:23
+    at runner (E:\applet\xiaohou\node_modules\@midwayjs\hooks-core\dist\midwayjs-hooks-core.cjs.dev.js:430:5)
+    at E:\applet\xiaohou\node_modules\@midwayjs\core\dist\common\webGenerator.js:38:26
+    at bodyParser (E:\applet\xiaohou\node_modules\koa-bodyparser\index.js:78:5) {
+  clientVersion: '5.5.2'
+}
+2023-11-08 18:47:55,956 ERROR 18256 [-/::ffff:127.0.0.1/-/190ms POST /api/register] PrismaClientValidationError: 
+Invalid `prisma.user.create()` invocation in
+E:\applet\xiaohou\src\api\user.ts:21:44
+
+  18 async (Params: Userparam) => {
+  19     const { username, password } = Params;
+  20     const hashPassword = hash(password, 10)
+→ 21     const register = await prisma.user.create({
+           data: {
+             username: "chen",
+             password: {}
+                       ~~
+           }
+         })
+
+Argument `password`: Invalid value provided. Expected String, provided Object.
+    at En (E:\applet\xiaohou\node_modules\@prisma\client\runtime\library.js:116:5888)
+    at Cn.handleRequestError (E:\applet\xiaohou\node_modules\@prisma\client\runtime\library.js:123:6516)
+    at Cn.handleAndLogRequestError (E:\applet\xiaohou\node_modules\@prisma\client\runtime\library.js:123:6206)
+    at Cn.request (E:\applet\xiaohou\node_modules\@prisma\client\runtime\library.js:123:5926)
+    at l (E:\applet\xiaohou\node_modules\@prisma\client\runtime\library.js:128:9968)
+    at E:\applet\xiaohou\src\api\user.ts:21:26
+    at E:\applet\xiaohou\node_modules\@midwayjs\hooks-core\dist\midwayjs-hooks-core.cjs.dev.js:426:23
+    at runner (E:\applet\xiaohou\node_modules\@midwayjs\hooks-core\dist\midwayjs-hooks-core.cjs.dev.js:430:5)
+    at E:\applet\xiaohou\node_modules\@midwayjs\core\dist\common\webGenerator.js:38:26
+    at bodyParser (E:\applet\xiaohou\node_modules\koa-bodyparser\index.js:78:5) {
+  clientVersion: '5.5.2'
+}
+2023-11-08 18:47:55,963 ERROR 18256 [-/::ffff:127.0.0.1/-/100ms POST /api/register] PrismaClientValidationError: 
+Invalid `prisma.user.create()` invocation in
+E:\applet\xiaohou\src\api\user.ts:21:44
+
+  18 async (Params: Userparam) => {
+  19     const { username, password } = Params;
+  20     const hashPassword = hash(password, 10)
+→ 21     const register = await prisma.user.create({
+           data: {
+             username: "chen",
+             password: {}
+                       ~~
+           }
+         })
+
+Argument `password`: Invalid value provided. Expected String, provided Object.
+    at En (E:\applet\xiaohou\node_modules\@prisma\client\runtime\library.js:116:5888)
+    at Cn.handleRequestError (E:\applet\xiaohou\node_modules\@prisma\client\runtime\library.js:123:6516)
+    at Cn.handleAndLogRequestError (E:\applet\xiaohou\node_modules\@prisma\client\runtime\library.js:123:6206)
+    at Cn.request (E:\applet\xiaohou\node_modules\@prisma\client\runtime\library.js:123:5926)
+    at l (E:\applet\xiaohou\node_modules\@prisma\client\runtime\library.js:128:9968)
+    at E:\applet\xiaohou\src\api\user.ts:21:26
+    at E:\applet\xiaohou\node_modules\@midwayjs\hooks-core\dist\midwayjs-hooks-core.cjs.dev.js:426:23
+    at runner (E:\applet\xiaohou\node_modules\@midwayjs\hooks-core\dist\midwayjs-hooks-core.cjs.dev.js:430:5)
+    at E:\applet\xiaohou\node_modules\@midwayjs\core\dist\common\webGenerator.js:38:26
+    at bodyParser (E:\applet\xiaohou\node_modules\koa-bodyparser\index.js:78:5) {
+  clientVersion: '5.5.2'
+}
+2023-11-08 18:48:53,063 ERROR 12156 [-/::ffff:127.0.0.1/-/97ms POST /api/register] ReferenceError: registerApihashPassword is not defined
+    at E:\applet\xiaohou\src\api\user.ts:24:27
+    at E:\applet\xiaohou\node_modules\@midwayjs\hooks-core\dist\midwayjs-hooks-core.cjs.dev.js:426:23
+    at runner (E:\applet\xiaohou\node_modules\@midwayjs\hooks-core\dist\midwayjs-hooks-core.cjs.dev.js:430:5)
+    at E:\applet\xiaohou\node_modules\@midwayjs\core\dist\common\webGenerator.js:38:26
+    at bodyParser (E:\applet\xiaohou\node_modules\koa-bodyparser\index.js:78:5)
+    at session (E:\applet\xiaohou\node_modules\@midwayjs\session\dist\middleware\session.js:137:17)
+    at E:\applet\xiaohou\node_modules\@midwayjs\core\dist\baseFramework.js:277:40
+    at E:\applet\xiaohou\node_modules\@midwayjs\core\dist\baseFramework.js:271:24
+    at midwayRootMiddleware (E:\applet\xiaohou\node_modules\@midwayjs\koa\dist\framework.js:100:13)
+2023-11-08 18:48:53,150 ERROR 12156 [-/::ffff:127.0.0.1/-/81ms POST /api/register] ReferenceError: registerApihashPassword is not defined
+    at E:\applet\xiaohou\src\api\user.ts:24:27
+    at E:\applet\xiaohou\node_modules\@midwayjs\hooks-core\dist\midwayjs-hooks-core.cjs.dev.js:426:23
+    at runner (E:\applet\xiaohou\node_modules\@midwayjs\hooks-core\dist\midwayjs-hooks-core.cjs.dev.js:430:5)
+    at E:\applet\xiaohou\node_modules\@midwayjs\core\dist\common\webGenerator.js:38:26
+    at bodyParser (E:\applet\xiaohou\node_modules\koa-bodyparser\index.js:78:5)
+    at session (E:\applet\xiaohou\node_modules\@midwayjs\session\dist\middleware\session.js:137:17)
+    at E:\applet\xiaohou\node_modules\@midwayjs\core\dist\baseFramework.js:277:40
+    at E:\applet\xiaohou\node_modules\@midwayjs\core\dist\baseFramework.js:271:24
+    at midwayRootMiddleware (E:\applet\xiaohou\node_modules\@midwayjs\koa\dist\framework.js:100:13)
+2023-11-08 18:48:57,412 ERROR 11248 [-/::ffff:127.0.0.1/-/115ms POST /api/register] PrismaClientValidationError: 
+Invalid `prisma.user.create()` invocation in
+E:\applet\xiaohou\src\api\user.ts:21:44
+
+  18 async (Params: Userparam) => {
+  19     const { username, password } = Params;
+  20     const hashPassword = await hash(password, 10)
+→ 21     const register = await prisma.user.create({
+           data: {
+             username: "chen",
+         +   password: String
+           }
+         })
+
+Argument `password` is missing.
+    at En (E:\applet\xiaohou\node_modules\@prisma\client\runtime\library.js:116:5888)
+    at Cn.handleRequestError (E:\applet\xiaohou\node_modules\@prisma\client\runtime\library.js:123:6516)
+    at Cn.handleAndLogRequestError (E:\applet\xiaohou\node_modules\@prisma\client\runtime\library.js:123:6206)
+    at Cn.request (E:\applet\xiaohou\node_modules\@prisma\client\runtime\library.js:123:5926)
+    at l (E:\applet\xiaohou\node_modules\@prisma\client\runtime\library.js:128:9968)
+    at E:\applet\xiaohou\src\api\user.ts:21:26
+    at E:\applet\xiaohou\node_modules\@midwayjs\hooks-core\dist\midwayjs-hooks-core.cjs.dev.js:426:23
+    at runner (E:\applet\xiaohou\node_modules\@midwayjs\hooks-core\dist\midwayjs-hooks-core.cjs.dev.js:430:5)
+    at E:\applet\xiaohou\node_modules\@midwayjs\core\dist\common\webGenerator.js:38:26
+    at bodyParser (E:\applet\xiaohou\node_modules\koa-bodyparser\index.js:78:5) {
+  clientVersion: '5.5.2'
+}
+2023-11-08 18:49:03,999 ERROR 17636 [-/::ffff:127.0.0.1/-/99ms POST /api/register] ReferenceError: Cannot access 'register' before initialization
+    at E:\applet\xiaohou\src\api\user.ts:24:27
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at processImmediate (node:internal/timers:437:9)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+    at E:\applet\xiaohou\node_modules\@midwayjs\hooks-core\dist\midwayjs-hooks-core.cjs.dev.js:426:23
+    at runner (E:\applet\xiaohou\node_modules\@midwayjs\hooks-core\dist\midwayjs-hooks-core.cjs.dev.js:430:5)
+    at E:\applet\xiaohou\node_modules\@midwayjs\core\dist\common\webGenerator.js:38:26
+    at bodyParser (E:\applet\xiaohou\node_modules\koa-bodyparser\index.js:78:5)
+    at session (E:\applet\xiaohou\node_modules\@midwayjs\session\dist\middleware\session.js:137:17)
+    at E:\applet\xiaohou\node_modules\@midwayjs\core\dist\baseFramework.js:277:40
+2023-11-08 18:49:04,086 ERROR 17636 [-/::ffff:127.0.0.1/-/91ms POST /api/register] ReferenceError: Cannot access 'register' before initialization
+    at E:\applet\xiaohou\src\api\user.ts:24:27
+    at E:\applet\xiaohou\node_modules\@midwayjs\hooks-core\dist\midwayjs-hooks-core.cjs.dev.js:426:23
+    at runner (E:\applet\xiaohou\node_modules\@midwayjs\hooks-core\dist\midwayjs-hooks-core.cjs.dev.js:430:5)
+    at E:\applet\xiaohou\node_modules\@midwayjs\core\dist\common\webGenerator.js:38:26
+    at bodyParser (E:\applet\xiaohou\node_modules\koa-bodyparser\index.js:78:5)
+    at session (E:\applet\xiaohou\node_modules\@midwayjs\session\dist\middleware\session.js:137:17)
+    at E:\applet\xiaohou\node_modules\@midwayjs\core\dist\baseFramework.js:277:40
+    at E:\applet\xiaohou\node_modules\@midwayjs\core\dist\baseFramework.js:271:24
+    at midwayRootMiddleware (E:\applet\xiaohou\node_modules\@midwayjs\koa\dist\framework.js:100:13)
+2023-11-08 18:49:16,704 ERROR 17580 [-/::ffff:127.0.0.1/-/95ms POST /api/register] ReferenceError: regiusername is not defined
+    at E:\applet\xiaohou\src\api\user.ts:23:27
+    at E:\applet\xiaohou\node_modules\@midwayjs\hooks-core\dist\midwayjs-hooks-core.cjs.dev.js:426:23
+    at runner (E:\applet\xiaohou\node_modules\@midwayjs\hooks-core\dist\midwayjs-hooks-core.cjs.dev.js:430:5)
+    at E:\applet\xiaohou\node_modules\@midwayjs\core\dist\common\webGenerator.js:38:26
+    at bodyParser (E:\applet\xiaohou\node_modules\koa-bodyparser\index.js:78:5)
+    at session (E:\applet\xiaohou\node_modules\@midwayjs\session\dist\middleware\session.js:137:17)
+    at E:\applet\xiaohou\node_modules\@midwayjs\core\dist\baseFramework.js:277:40
+    at E:\applet\xiaohou\node_modules\@midwayjs\core\dist\baseFramework.js:271:24
+    at midwayRootMiddleware (E:\applet\xiaohou\node_modules\@midwayjs\koa\dist\framework.js:100:13)
+2023-11-08 18:49:20,842 ERROR 8336 [-/::ffff:127.0.0.1/-/98ms POST /api/register] ReferenceError: regisusername is not defined
+    at E:\applet\xiaohou\src\api\user.ts:23:27
+    at E:\applet\xiaohou\node_modules\@midwayjs\hooks-core\dist\midwayjs-hooks-core.cjs.dev.js:426:23
+    at runner (E:\applet\xiaohou\node_modules\@midwayjs\hooks-core\dist\midwayjs-hooks-core.cjs.dev.js:430:5)
+    at E:\applet\xiaohou\node_modules\@midwayjs\core\dist\common\webGenerator.js:38:26
+    at bodyParser (E:\applet\xiaohou\node_modules\koa-bodyparser\index.js:78:5)
+    at session (E:\applet\xiaohou\node_modules\@midwayjs\session\dist\middleware\session.js:137:17)
+    at E:\applet\xiaohou\node_modules\@midwayjs\core\dist\baseFramework.js:277:40
+    at E:\applet\xiaohou\node_modules\@midwayjs\core\dist\baseFramework.js:271:24
+    at midwayRootMiddleware (E:\applet\xiaohou\node_modules\@midwayjs\koa\dist\framework.js:100:13)
+2023-11-08 18:49:29,691 ERROR 17600 [-/::ffff:127.0.0.1/-/105ms POST /api/register] ReferenceError: Cannot access 'register' before initialization
+    at E:\applet\xiaohou\src\api\user.ts:23:27
+    at E:\applet\xiaohou\node_modules\@midwayjs\hooks-core\dist\midwayjs-hooks-core.cjs.dev.js:426:23
+    at runner (E:\applet\xiaohou\node_modules\@midwayjs\hooks-core\dist\midwayjs-hooks-core.cjs.dev.js:430:5)
+    at E:\applet\xiaohou\node_modules\@midwayjs\core\dist\common\webGenerator.js:38:26
+    at bodyParser (E:\applet\xiaohou\node_modules\koa-bodyparser\index.js:78:5)
+    at session (E:\applet\xiaohou\node_modules\@midwayjs\session\dist\middleware\session.js:137:17)
+    at E:\applet\xiaohou\node_modules\@midwayjs\core\dist\baseFramework.js:277:40
+    at E:\applet\xiaohou\node_modules\@midwayjs\core\dist\baseFramework.js:271:24
+    at midwayRootMiddleware (E:\applet\xiaohou\node_modules\@midwayjs\koa\dist\framework.js:100:13)

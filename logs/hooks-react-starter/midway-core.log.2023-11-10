@@ -1,0 +1,337 @@
+2023-11-10 10:11:36,461 INFO 19620 [midway:ws] WebSocket server find shared http server and will be attach.
+2023-11-10 10:12:35,322 INFO 19620 socket server close
+2023-11-10 10:12:36,330 INFO 19620 socket server close
+2023-11-10 10:12:40,880 INFO 6524 [midway:ws] WebSocket server find shared http server and will be attach.
+2023-11-10 10:13:49,971 INFO 6524 socket server close
+2023-11-10 10:13:50,975 INFO 6524 socket server close
+2023-11-10 10:13:55,679 INFO 30468 [midway:ws] WebSocket server find shared http server and will be attach.
+2023-11-10 10:14:27,477 INFO 30468 socket server close
+2023-11-10 10:14:28,483 INFO 30468 socket server close
+2023-11-10 10:14:32,348 INFO 18780 [midway:ws] WebSocket server find shared http server and will be attach.
+2023-11-10 10:15:10,633 INFO 18780 socket server close
+2023-11-10 10:15:11,644 INFO 18780 socket server close
+2023-11-10 10:15:15,804 INFO 31656 [midway:ws] WebSocket server find shared http server and will be attach.
+2023-11-10 10:15:16,324 INFO 31656 socket server close
+2023-11-10 10:15:17,339 INFO 31656 socket server close
+2023-11-10 10:15:22,085 INFO 20988 [midway:ws] WebSocket server find shared http server and will be attach.
+2023-11-10 10:15:23,848 INFO 20988 socket server close
+2023-11-10 10:15:24,855 INFO 20988 socket server close
+2023-11-10 10:15:28,562 INFO 25268 [midway:ws] WebSocket server find shared http server and will be attach.
+2023-11-10 10:43:12,208 INFO 25268 socket server close
+2023-11-10 10:43:13,222 INFO 25268 socket server close
+2023-11-10 10:45:11,640 INFO 8804 [midway:ws] WebSocket server find shared http server and will be attach.
+2023-11-10 10:45:18,153 INFO 8804 socket server close
+2023-11-10 10:45:19,164 INFO 8804 socket server close
+2023-11-10 10:45:23,252 INFO 29732 [midway:ws] WebSocket server find shared http server and will be attach.
+2023-11-10 10:45:26,236 INFO 29732 socket server close
+2023-11-10 10:45:27,252 INFO 29732 socket server close
+2023-11-10 10:45:47,120 INFO 30780 [midway:ws] WebSocket server find shared http server and will be attach.
+2023-11-10 10:48:47,144 INFO 30780 socket server close
+2023-11-10 10:48:48,158 INFO 30780 socket server close
+2023-11-10 10:48:52,475 INFO 19240 [midway:ws] WebSocket server find shared http server and will be attach.
+2023-11-10 10:48:55,025 INFO 19240 socket server close
+2023-11-10 10:48:56,029 INFO 19240 socket server close
+2023-11-10 10:49:00,040 INFO 18732 [midway:ws] WebSocket server find shared http server and will be attach.
+2023-11-10 10:49:38,276 INFO 18732 socket server close
+2023-11-10 10:49:39,287 INFO 18732 socket server close
+2023-11-10 10:49:44,005 INFO 20468 [midway:ws] WebSocket server find shared http server and will be attach.
+2023-11-10 10:49:45,571 INFO 20468 socket server close
+2023-11-10 10:49:46,577 INFO 20468 socket server close
+2023-11-10 10:49:50,777 INFO 25320 [midway:ws] WebSocket server find shared http server and will be attach.
+2023-11-10 10:51:19,285 INFO 25320 socket server close
+2023-11-10 10:51:20,298 INFO 25320 socket server close
+2023-11-10 10:51:58,456 INFO 28688 [midway:ws] WebSocket server find shared http server and will be attach.
+2023-11-10 10:51:58,555 INFO 28688 socket server close
+2023-11-10 10:51:59,562 INFO 28688 socket server close
+2023-11-10 10:53:15,389 INFO 24952 [midway:ws] WebSocket server find shared http server and will be attach.
+2023-11-10 10:53:16,500 INFO 24952 socket server close
+2023-11-10 10:53:17,517 INFO 24952 socket server close
+2023-11-10 10:54:07,018 INFO 29924 [midway:ws] WebSocket server find shared http server and will be attach.
+2023-11-10 10:54:07,619 INFO 29924 socket server close
+2023-11-10 10:54:08,636 INFO 29924 socket server close
+2023-11-10 10:54:12,626 INFO 19908 [midway:ws] WebSocket server find shared http server and will be attach.
+2023-11-10 10:54:23,028 INFO 19908 socket server close
+2023-11-10 10:54:24,039 INFO 19908 socket server close
+2023-11-10 10:54:28,643 INFO 26780 [midway:ws] WebSocket server find shared http server and will be attach.
+2023-11-10 10:54:28,791 INFO 26780 socket server close
+2023-11-10 10:54:29,794 INFO 26780 socket server close
+2023-11-10 10:54:33,822 INFO 21260 [midway:ws] WebSocket server find shared http server and will be attach.
+2023-11-10 10:54:55,536 INFO 21260 socket server close
+2023-11-10 10:54:56,543 INFO 21260 socket server close
+2023-11-10 10:55:01,403 INFO 25184 [midway:ws] WebSocket server find shared http server and will be attach.
+2023-11-10 10:55:35,843 INFO 25184 socket server close
+2023-11-10 10:55:36,856 INFO 25184 socket server close
+2023-11-10 10:55:40,902 INFO 30800 [midway:ws] WebSocket server find shared http server and will be attach.
+2023-11-10 10:56:26,984 INFO 30800 socket server close
+2023-11-10 10:56:27,994 INFO 30800 socket server close
+2023-11-10 10:56:32,114 INFO 30280 [midway:ws] WebSocket server find shared http server and will be attach.
+2023-11-10 10:56:55,335 INFO 30280 socket server close
+2023-11-10 10:56:56,347 INFO 30280 socket server close
+2023-11-10 10:57:00,549 INFO 30528 [midway:ws] WebSocket server find shared http server and will be attach.
+2023-11-10 10:57:01,933 INFO 30528 socket server close
+2023-11-10 10:57:02,939 INFO 30528 socket server close
+2023-11-10 10:57:06,847 INFO 25892 [midway:ws] WebSocket server find shared http server and will be attach.
+2023-11-10 10:57:27,930 INFO 25892 socket server close
+2023-11-10 10:57:28,940 INFO 25892 socket server close
+2023-11-10 10:57:33,424 INFO 5228 [midway:ws] WebSocket server find shared http server and will be attach.
+2023-11-10 10:57:34,616 INFO 5228 socket server close
+2023-11-10 10:57:35,617 INFO 5228 socket server close
+2023-11-10 10:57:40,125 INFO 29788 [midway:ws] WebSocket server find shared http server and will be attach.
+2023-11-10 10:57:41,084 INFO 29788 socket server close
+2023-11-10 10:57:42,093 INFO 29788 socket server close
+2023-11-10 10:57:46,608 INFO 20188 [midway:ws] WebSocket server find shared http server and will be attach.
+2023-11-10 10:59:23,908 INFO 20188 socket server close
+2023-11-10 10:59:24,914 INFO 20188 socket server close
+2023-11-10 10:59:29,146 INFO 25988 [midway:ws] WebSocket server find shared http server and will be attach.
+2023-11-10 10:59:30,651 INFO 25988 socket server close
+2023-11-10 10:59:31,668 INFO 25988 socket server close
+2023-11-10 10:59:35,907 INFO 4028 [midway:ws] WebSocket server find shared http server and will be attach.
+2023-11-10 10:59:41,099 INFO 4028 socket server close
+2023-11-10 10:59:42,113 INFO 4028 socket server close
+2023-11-10 10:59:46,096 INFO 28692 [midway:ws] WebSocket server find shared http server and will be attach.
+2023-11-10 11:00:17,573 INFO 28692 socket server close
+2023-11-10 11:00:18,585 INFO 28692 socket server close
+2023-11-10 11:00:27,849 INFO 29112 [midway:ws] WebSocket server find shared http server and will be attach.
+2023-11-10 11:04:01,413 INFO 29112 socket server close
+2023-11-10 11:04:02,429 INFO 29112 socket server close
+2023-11-10 11:04:07,110 INFO 7668 [midway:ws] WebSocket server find shared http server and will be attach.
+2023-11-10 11:04:32,999 INFO 7668 socket server close
+2023-11-10 11:04:34,010 INFO 7668 socket server close
+2023-11-10 11:05:29,648 INFO 28232 [midway:ws] WebSocket server find shared http server and will be attach.
+2023-11-10 11:05:30,533 INFO 28232 socket server close
+2023-11-10 11:05:31,542 INFO 28232 socket server close
+2023-11-10 11:05:35,538 INFO 4916 [midway:ws] WebSocket server find shared http server and will be attach.
+2023-11-10 11:05:37,497 INFO 4916 socket server close
+2023-11-10 11:05:38,512 INFO 4916 socket server close
+2023-11-10 11:05:42,686 INFO 30824 [midway:ws] WebSocket server find shared http server and will be attach.
+2023-11-10 11:05:45,778 INFO 30824 socket server close
+2023-11-10 11:05:46,789 INFO 30824 socket server close
+2023-11-10 11:05:51,077 INFO 3744 [midway:ws] WebSocket server find shared http server and will be attach.
+2023-11-10 11:05:56,612 INFO 3744 socket server close
+2023-11-10 11:05:57,618 INFO 3744 socket server close
+2023-11-10 11:06:01,710 INFO 1228 [midway:ws] WebSocket server find shared http server and will be attach.
+2023-11-10 11:06:17,720 INFO 1228 socket server close
+2023-11-10 11:06:18,733 INFO 1228 socket server close
+2023-11-10 11:06:22,959 INFO 31016 [midway:ws] WebSocket server find shared http server and will be attach.
+2023-11-10 11:06:31,656 INFO 31016 socket server close
+2023-11-10 11:06:32,667 INFO 31016 socket server close
+2023-11-10 11:06:36,680 INFO 17700 [midway:ws] WebSocket server find shared http server and will be attach.
+2023-11-10 11:07:44,621 INFO 17700 socket server close
+2023-11-10 11:07:45,629 INFO 17700 socket server close
+2023-11-10 11:07:49,858 INFO 17536 [midway:ws] WebSocket server find shared http server and will be attach.
+2023-11-10 11:08:02,585 INFO 17536 socket server close
+2023-11-10 11:08:03,595 INFO 17536 socket server close
+2023-11-10 11:08:07,686 INFO 29496 [midway:ws] WebSocket server find shared http server and will be attach.
+2023-11-10 11:08:29,481 INFO 29496 socket server close
+2023-11-10 11:08:30,485 INFO 29496 socket server close
+2023-11-10 11:08:34,670 INFO 21536 [midway:ws] WebSocket server find shared http server and will be attach.
+2023-11-10 11:08:39,566 INFO 21536 socket server close
+2023-11-10 11:08:40,579 INFO 21536 socket server close
+2023-11-10 11:08:44,755 INFO 25180 [midway:ws] WebSocket server find shared http server and will be attach.
+2023-11-10 11:14:23,288 INFO 25180 socket server close
+2023-11-10 11:14:24,293 INFO 25180 socket server close
+2023-11-10 11:14:28,723 INFO 16700 [midway:ws] WebSocket server find shared http server and will be attach.
+2023-11-10 11:14:34,996 INFO 16700 socket server close
+2023-11-10 11:14:36,011 INFO 16700 socket server close
+2023-11-10 11:14:40,747 INFO 16864 [midway:ws] WebSocket server find shared http server and will be attach.
+2023-11-10 11:16:38,865 INFO 16864 socket server close
+2023-11-10 11:16:39,882 INFO 16864 socket server close
+2023-11-10 11:16:44,680 INFO 18296 [midway:ws] WebSocket server find shared http server and will be attach.
+2023-11-10 11:17:59,558 INFO 18296 socket server close
+2023-11-10 11:18:00,564 INFO 18296 socket server close
+2023-11-10 11:18:04,844 INFO 27288 [midway:ws] WebSocket server find shared http server and will be attach.
+2023-11-10 11:18:14,739 INFO 27288 socket server close
+2023-11-10 11:18:15,748 INFO 27288 socket server close
+2023-11-10 11:18:20,283 INFO 31100 [midway:ws] WebSocket server find shared http server and will be attach.
+2023-11-10 11:18:21,589 INFO 31100 socket server close
+2023-11-10 11:18:22,593 INFO 31100 socket server close
+2023-11-10 11:19:28,460 INFO 12936 [midway:ws] WebSocket server find shared http server and will be attach.
+2023-11-10 11:22:11,726 INFO 12936 socket server close
+2023-11-10 11:22:12,733 INFO 12936 socket server close
+2023-11-10 11:24:44,064 INFO 22884 [midway:ws] WebSocket server find shared http server and will be attach.
+2023-11-10 11:25:04,400 INFO 22884 socket server close
+2023-11-10 11:25:05,408 INFO 22884 socket server close
+2023-11-10 11:25:09,510 INFO 2344 [midway:ws] WebSocket server find shared http server and will be attach.
+2023-11-10 11:26:16,932 INFO 2344 socket server close
+2023-11-10 11:26:17,944 INFO 2344 socket server close
+2023-11-10 11:26:21,878 INFO 12144 [midway:ws] WebSocket server find shared http server and will be attach.
+2023-11-10 11:32:31,966 INFO 12144 socket server close
+2023-11-10 11:32:32,974 INFO 12144 socket server close
+2023-11-10 11:32:37,532 INFO 21744 [midway:ws] WebSocket server find shared http server and will be attach.
+2023-11-10 11:32:37,948 INFO 21744 socket server close
+2023-11-10 11:32:38,956 INFO 21744 socket server close
+2023-11-10 11:33:20,936 INFO 25212 [midway:ws] WebSocket server find shared http server and will be attach.
+2023-11-10 11:33:42,417 INFO 25212 socket server close
+2023-11-10 11:33:43,423 INFO 25212 socket server close
+2023-11-10 11:33:48,264 INFO 19964 [midway:ws] WebSocket server find shared http server and will be attach.
+2023-11-10 11:36:37,318 INFO 19964 socket server close
+2023-11-10 11:36:38,336 INFO 19964 socket server close
+2023-11-10 11:36:42,499 INFO 12700 [midway:ws] WebSocket server find shared http server and will be attach.
+2023-11-10 11:36:56,987 INFO 12700 socket server close
+2023-11-10 11:36:58,002 INFO 12700 socket server close
+2023-11-10 11:37:02,530 INFO 21600 [midway:ws] WebSocket server find shared http server and will be attach.
+2023-11-10 11:37:02,692 INFO 21600 socket server close
+2023-11-10 11:37:03,697 INFO 21600 socket server close
+2023-11-10 11:37:08,019 INFO 29828 [midway:ws] WebSocket server find shared http server and will be attach.
+2023-11-10 11:38:05,650 INFO 29828 socket server close
+2023-11-10 11:38:06,657 INFO 29828 socket server close
+2023-11-10 11:38:34,540 INFO 21600 [midway:ws] WebSocket server find shared http server and will be attach.
+2023-11-10 11:38:42,196 INFO 21600 socket server close
+2023-11-10 11:38:43,207 INFO 21600 socket server close
+2023-11-10 11:38:47,150 INFO 24044 [midway:ws] WebSocket server find shared http server and will be attach.
+2023-11-10 11:39:27,345 INFO 24044 socket server close
+2023-11-10 11:39:28,350 INFO 24044 socket server close
+2023-11-10 11:39:32,596 INFO 23460 [midway:ws] WebSocket server find shared http server and will be attach.
+2023-11-10 11:40:57,630 INFO 23460 socket server close
+2023-11-10 11:40:58,641 INFO 23460 socket server close
+2023-11-10 11:41:02,933 INFO 30364 [midway:ws] WebSocket server find shared http server and will be attach.
+2023-11-10 11:41:15,625 INFO 30364 socket server close
+2023-11-10 11:41:16,634 INFO 30364 socket server close
+2023-11-10 11:41:20,795 INFO 29684 [midway:ws] WebSocket server find shared http server and will be attach.
+2023-11-10 11:41:29,781 INFO 29684 socket server close
+2023-11-10 11:41:30,801 INFO 29684 socket server close
+2023-11-10 11:41:34,995 INFO 23588 [midway:ws] WebSocket server find shared http server and will be attach.
+2023-11-10 11:41:59,767 INFO 23588 socket server close
+2023-11-10 11:42:00,774 INFO 23588 socket server close
+2023-11-10 11:42:15,450 INFO 24772 [midway:ws] WebSocket server find shared http server and will be attach.
+2023-11-10 11:42:21,228 INFO 24772 socket server close
+2023-11-10 11:42:22,238 INFO 24772 socket server close
+2023-11-10 11:42:26,853 INFO 22836 [midway:ws] WebSocket server find shared http server and will be attach.
+2023-11-10 11:42:27,977 INFO 22836 socket server close
+2023-11-10 11:42:28,984 INFO 22836 socket server close
+2023-11-10 11:42:33,478 INFO 23528 [midway:ws] WebSocket server find shared http server and will be attach.
+2023-11-10 11:42:35,461 INFO 23528 socket server close
+2023-11-10 11:42:36,469 INFO 23528 socket server close
+2023-11-10 11:42:40,787 INFO 30452 [midway:ws] WebSocket server find shared http server and will be attach.
+2023-11-10 11:42:41,564 INFO 30452 socket server close
+2023-11-10 11:42:42,577 INFO 30452 socket server close
+2023-11-10 11:42:46,909 INFO 20824 [midway:ws] WebSocket server find shared http server and will be attach.
+2023-11-10 11:43:09,319 INFO 20824 socket server close
+2023-11-10 11:43:10,325 INFO 20824 socket server close
+2023-11-10 11:43:14,368 INFO 28584 [midway:ws] WebSocket server find shared http server and will be attach.
+2023-11-10 11:43:17,104 INFO 28584 socket server close
+2023-11-10 11:43:18,115 INFO 28584 socket server close
+2023-11-10 11:43:23,139 INFO 8056 [midway:ws] WebSocket server find shared http server and will be attach.
+2023-11-10 11:43:30,210 INFO 8056 socket server close
+2023-11-10 11:43:31,219 INFO 8056 socket server close
+2023-11-10 11:43:46,068 INFO 29044 [midway:ws] WebSocket server find shared http server and will be attach.
+2023-11-10 11:43:47,732 INFO 29044 socket server close
+2023-11-10 11:43:48,739 INFO 29044 socket server close
+2023-11-10 11:43:52,977 INFO 31232 [midway:ws] WebSocket server find shared http server and will be attach.
+2023-11-10 11:43:55,243 INFO 31232 socket server close
+2023-11-10 11:43:56,251 INFO 31232 socket server close
+2023-11-10 11:45:14,003 INFO 17444 [midway:ws] WebSocket server find shared http server and will be attach.
+2023-11-10 11:45:15,438 INFO 17444 socket server close
+2023-11-10 11:45:16,444 INFO 17444 socket server close
+2023-11-10 11:45:20,772 INFO 22980 [midway:ws] WebSocket server find shared http server and will be attach.
+2023-11-10 11:45:27,426 INFO 22980 socket server close
+2023-11-10 11:45:28,440 INFO 22980 socket server close
+2023-11-10 11:45:37,848 INFO 28620 [midway:ws] WebSocket server find shared http server and will be attach.
+2023-11-10 11:47:07,099 INFO 28620 socket server close
+2023-11-10 11:47:08,106 INFO 28620 socket server close
+2023-11-10 11:47:17,247 INFO 21864 [midway:ws] WebSocket server find shared http server and will be attach.
+2023-11-10 11:47:29,814 INFO 21864 socket server close
+2023-11-10 11:47:30,820 INFO 21864 socket server close
+2023-11-10 11:47:35,256 INFO 31516 [midway:ws] WebSocket server find shared http server and will be attach.
+2023-11-10 11:47:35,379 INFO 31516 socket server close
+2023-11-10 11:47:36,386 INFO 31516 socket server close
+2023-11-10 11:47:40,649 INFO 10916 [midway:ws] WebSocket server find shared http server and will be attach.
+2023-11-10 11:47:44,010 INFO 10916 socket server close
+2023-11-10 11:47:45,015 INFO 10916 socket server close
+2023-11-10 11:47:49,011 INFO 416 [midway:ws] WebSocket server find shared http server and will be attach.
+2023-11-10 11:48:23,933 INFO 416 socket server close
+2023-11-10 11:48:24,948 INFO 416 socket server close
+2023-11-10 11:48:40,314 INFO 6644 [midway:ws] WebSocket server find shared http server and will be attach.
+2023-11-10 11:48:50,778 INFO 6644 socket server close
+2023-11-10 11:48:51,785 INFO 6644 socket server close
+2023-11-10 11:49:00,102 INFO 23248 [midway:ws] WebSocket server find shared http server and will be attach.
+2023-11-10 11:49:11,663 INFO 23248 socket server close
+2023-11-10 11:49:12,682 INFO 23248 socket server close
+2023-11-10 11:49:16,817 INFO 23220 [midway:ws] WebSocket server find shared http server and will be attach.
+2023-11-10 11:49:23,854 INFO 23220 socket server close
+2023-11-10 11:49:24,861 INFO 23220 socket server close
+2023-11-10 11:49:29,390 INFO 31376 [midway:ws] WebSocket server find shared http server and will be attach.
+2023-11-10 11:50:02,352 INFO 31376 socket server close
+2023-11-10 11:50:03,355 INFO 31376 socket server close
+2023-11-10 11:50:07,204 INFO 28596 [midway:ws] WebSocket server find shared http server and will be attach.
+2023-11-10 11:50:23,918 INFO 28596 socket server close
+2023-11-10 11:50:24,933 INFO 28596 socket server close
+2023-11-10 11:50:30,045 INFO 24788 [midway:ws] WebSocket server find shared http server and will be attach.
+2023-11-10 11:50:40,049 INFO 24788 socket server close
+2023-11-10 11:50:41,054 INFO 24788 socket server close
+2023-11-10 11:50:45,199 INFO 4316 [midway:ws] WebSocket server find shared http server and will be attach.
+2023-11-10 11:52:12,636 INFO 4316 socket server close
+2023-11-10 11:52:13,645 INFO 4316 socket server close
+2023-11-10 11:52:26,161 INFO 31356 [midway:ws] WebSocket server find shared http server and will be attach.
+2023-11-10 14:03:30,324 INFO 31356 socket server close
+2023-11-10 14:03:31,329 INFO 31356 socket server close
+2023-11-10 14:03:58,252 INFO 6772 [midway:ws] WebSocket server find shared http server and will be attach.
+2023-11-10 14:05:55,427 INFO 6772 socket server close
+2023-11-10 14:05:56,435 INFO 6772 socket server close
+2023-11-10 14:06:00,733 INFO 6612 [midway:ws] WebSocket server find shared http server and will be attach.
+2023-11-10 14:09:23,146 INFO 6612 socket server close
+2023-11-10 14:09:24,159 INFO 6612 socket server close
+2023-11-10 14:09:28,297 INFO 27056 [midway:ws] WebSocket server find shared http server and will be attach.
+2023-11-10 14:13:06,642 INFO 27056 socket server close
+2023-11-10 14:13:07,653 INFO 27056 socket server close
+2023-11-10 14:13:34,444 INFO 12928 [midway:ws] WebSocket server find shared http server and will be attach.
+2023-11-10 14:14:22,180 INFO 12928 socket server close
+2023-11-10 14:14:23,185 INFO 12928 socket server close
+2023-11-10 14:14:27,584 INFO 30336 [midway:ws] WebSocket server find shared http server and will be attach.
+2023-11-10 14:15:36,914 INFO 30336 socket server close
+2023-11-10 14:15:37,929 INFO 30336 socket server close
+2023-11-10 14:15:42,762 INFO 8076 [midway:ws] WebSocket server find shared http server and will be attach.
+2023-11-10 14:15:46,955 INFO 8076 socket server close
+2023-11-10 14:15:47,970 INFO 8076 socket server close
+2023-11-10 14:15:52,636 INFO 20420 [midway:ws] WebSocket server find shared http server and will be attach.
+2023-11-10 14:15:53,541 INFO 20420 socket server close
+2023-11-10 14:15:54,547 INFO 20420 socket server close
+2023-11-10 14:16:02,849 INFO 24152 [midway:ws] WebSocket server find shared http server and will be attach.
+2023-11-10 14:16:02,966 INFO 24152 socket server close
+2023-11-10 14:16:03,983 INFO 24152 socket server close
+2023-11-10 14:16:07,980 INFO 4852 [midway:ws] WebSocket server find shared http server and will be attach.
+2023-11-10 14:16:11,324 INFO 4852 socket server close
+2023-11-10 14:16:12,334 INFO 4852 socket server close
+2023-11-10 14:16:16,752 INFO 24076 [midway:ws] WebSocket server find shared http server and will be attach.
+2023-11-10 14:16:21,910 INFO 24076 socket server close
+2023-11-10 14:16:22,917 INFO 24076 socket server close
+2023-11-10 14:16:27,152 INFO 6016 [midway:ws] WebSocket server find shared http server and will be attach.
+2023-11-10 14:16:33,722 INFO 6016 socket server close
+2023-11-10 14:16:34,733 INFO 6016 socket server close
+2023-11-10 14:16:39,338 INFO 29828 [midway:ws] WebSocket server find shared http server and will be attach.
+2023-11-10 14:16:39,686 INFO 29828 socket server close
+2023-11-10 14:16:40,689 INFO 29828 socket server close
+2023-11-10 14:16:44,849 INFO 31396 [midway:ws] WebSocket server find shared http server and will be attach.
+2023-11-10 14:17:22,005 INFO 31396 socket server close
+2023-11-10 14:17:23,012 INFO 31396 socket server close
+2023-11-10 14:17:27,730 INFO 28780 [midway:ws] WebSocket server find shared http server and will be attach.
+2023-11-10 14:17:27,845 INFO 28780 socket server close
+2023-11-10 14:17:28,859 INFO 28780 socket server close
+2023-11-10 14:17:33,963 INFO 16080 [midway:ws] WebSocket server find shared http server and will be attach.
+2023-11-10 14:19:28,502 INFO 16080 socket server close
+2023-11-10 14:19:29,508 INFO 16080 socket server close
+2023-11-10 14:19:45,150 INFO 24104 [midway:ws] WebSocket server find shared http server and will be attach.
+2023-11-10 14:20:11,427 INFO 24104 socket server close
+2023-11-10 14:20:12,439 INFO 24104 socket server close
+2023-11-10 14:20:16,599 INFO 20044 [midway:ws] WebSocket server find shared http server and will be attach.
+2023-11-10 14:33:34,763 INFO 20044 socket server close
+2023-11-10 14:33:35,784 INFO 20044 socket server close
+2023-11-10 14:33:40,986 INFO 29284 [midway:ws] WebSocket server find shared http server and will be attach.
+2023-11-10 14:36:21,619 INFO 29284 socket server close
+2023-11-10 14:36:22,635 INFO 29284 socket server close
+2023-11-10 14:36:26,722 INFO 28208 [midway:ws] WebSocket server find shared http server and will be attach.
+2023-11-10 14:36:32,963 INFO 28208 socket server close
+2023-11-10 14:36:33,974 INFO 28208 socket server close
+2023-11-10 14:36:38,142 INFO 16416 [midway:ws] WebSocket server find shared http server and will be attach.
+2023-11-10 14:37:04,534 INFO 16416 socket server close
+2023-11-10 14:37:05,543 INFO 16416 socket server close
+2023-11-10 14:37:09,524 INFO 18560 [midway:ws] WebSocket server find shared http server and will be attach.
+2023-11-10 14:37:37,878 INFO 18560 socket server close
+2023-11-10 14:37:38,885 INFO 18560 socket server close
+2023-11-10 14:37:43,107 INFO 30648 [midway:ws] WebSocket server find shared http server and will be attach.
+2023-11-10 14:38:19,390 INFO 30648 socket server close
+2023-11-10 14:38:20,406 INFO 30648 socket server close
+2023-11-10 14:38:24,940 INFO 27924 [midway:ws] WebSocket server find shared http server and will be attach.
+2023-11-10 14:38:33,827 INFO 27924 socket server close
+2023-11-10 14:38:34,839 INFO 27924 socket server close
+2023-11-10 14:38:39,358 INFO 31124 [midway:ws] WebSocket server find shared http server and will be attach.

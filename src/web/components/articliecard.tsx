@@ -7,7 +7,7 @@ import './articleall.scss'
 
 interface Post {
     content: string,
-    createdAt: Date,
+    createdAt: string,
     viewCount: number,
     comment: number,
     id: number
@@ -21,7 +21,7 @@ const ArticleCard: React.FC<{ post: Post }> = ({ post }) => {
             <div className="card">
                 <div className="article">{post.content}</div>
                 <div className="data">
-                    <div className="date">{post.createdAt}</div>
+                    <div className="date">{post.createdAt.replace('T', ' ').split('.')[0]}</div>
                     <div className="reading">
                         <span>阅读:{post.viewCount}</span>
                         <span>评论:{post.comment}</span>

@@ -17,7 +17,33 @@ const DRAWER: React.FC = () => {
     setOpen(false);
   };
 
-
+  const navbarData = [
+    {
+      src: 'https://iconfont.alicdn.com/p/avatar/iconfont/avatar5.png',
+      alt: '博客',
+      link: 'Blog'
+    },
+    {
+      src: 'https://iconfont.alicdn.com/p/avatar/iconfont/avatar5.png',
+      alt: '说说',
+      link: 'Blog'
+    },
+    {
+      src: 'https://iconfont.alicdn.com/p/avatar/iconfont/avatar5.png',
+      alt: '娱乐',
+      link: 'Blog'
+    },
+    {
+      src: 'https://iconfont.alicdn.com/p/avatar/iconfont/avatar5.png',
+      alt: '暂定',
+      link: 'publish'
+    },
+    {
+      src: 'https://iconfont.alicdn.com/p/avatar/iconfont/avatar5.png',
+      alt: '发布',
+      link: 'publish'
+    },
+  ]
 
   return (
     <div className='drawer'>
@@ -28,13 +54,13 @@ const DRAWER: React.FC = () => {
       <Drawer title="Lighthouse" placement="right" onClose={onClose} open={open} rootClassName='chuoti'>
         <Intro />
         <div className="navbox">
-          <NavBar />
-          <NavBar />
-          <NavBar />
-          <NavBar />
-          <NavBar />
-          <NavBar />
-          <NavBar />
+          {navbarData.map((ndata, index) => {
+            return (
+              <NavBar ndata={ndata} key={index} />
+            )
+          })}
+          {/* <NavBar /> */}
+          {/* <a href="https://htapk.wmupd.com/webops/ht/HT_1.1.0.0830.exe" download>点击下载</a> */}
         </div>
       </Drawer>
     </div>

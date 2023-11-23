@@ -5,4 +5,7 @@ export default defineConfig({
   vite: {
     plugins: [react()],
   },
+  webSocket: {
+    port: 3000,
+  },
 });

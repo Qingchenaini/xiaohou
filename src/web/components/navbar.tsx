@@ -1,12 +1,21 @@
 import React from "react"
 import './navbar.scss'
+import { NavLink } from "react-router-dom";
 
-const NavBar: React.FC = () => {
+
+interface NavBarProps {
+    ndata: { src: string; alt: string, link: string }; // 定义参数的类型
+}
+const NavBar: React.FC<NavBarProps> = ({ ndata }) => {
     return (
-        <div className="nav-box">
-            <img src="https://iconfont.alicdn.com/p/avatar/iconfont/avatar5.png" alt="主页" className="nav-img"/>
-            <span className="nav-title">主页</span>
-        </div>
+        <NavLink to={ndata.link} className='nlink'>
+            <div className="nav-box">
+
+                <img src={ndata.src} alt={ndata.alt} className="nav-img" />
+                <span className="nav-title">{ndata.alt}</span>
+
+            </div>
+        </NavLink>
     )
 }
 export default NavBar
